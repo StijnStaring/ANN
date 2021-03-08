@@ -1,0 +1,170 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 Arial-BoldMT;
+\f3\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red29\green29\blue29;\red29\green29\blue29;
+\red83\green83\blue83;\red231\green250\blue255;}
+{\*\expandedcolortbl;;\csgray\c0\c0;\cssrgb\c14902\c14902\c14902;\cssrgb\c14902\c14902\c14902;
+\cssrgb\c40000\c40000\c40000;\cssrgb\c92157\c98431\c100000;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid101\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18200\viewh12180\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \cb2 Opening remarks
+\f1\b0 :\
+\
+In the reports you should always explain why you observe something, why something is bad, something performs better than some other methods, etc.\
+\
+You can work in groups if you want, but reports should be written and submitted individually\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\b\fs28 \cf3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 For the exercise Function approximation on page 3, besides just putting figures and describe them on report, need we also list MSE of different algorithms and make some explanation why they perform different?\
+
+\f3\b0 \
+Yes, it's a complete 'real-life' example. So you need to process your data, create models, evaluate and select the best performing model(s). You need to motivate your choices\
+\
+\
+
+\f2\b Should our code be submitted alongside the report?\
+
+\f3\b0 \
+No\
+\
+\
+
+\f2\b For the report, are we expected to further extend the models or rather focus on the existing model, its features, our results/choices, etc.?\
+
+\f3\b0 \
+\pard\pardeftab720\partightenfactor0
+\cf3 You're expected to try various model architectures, yes.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
+\
+
+\f2\b How should you select independent samples from your data (exercise 1)? When using the randi-command in Matlab, it's possible that you have the same values right? \
+
+\f3\b0 \
+Indeed, it is better to use randperm  \
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\b \cf3 In Section2, the third  exercise. We are asked to 'Motivate the choice of the datasets.'. What is that exactly ?\
+
+\f3\b0 \
+The datasets refer to the training, validation and test sets\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
+\
+
+\f2\b On page 3, when you refer to 'gradient descent' you mean 'steepest descent backpropagation'?\
+
+\f3\b0 \
+\pard\pardeftab720\partightenfactor0
+\cf3 there we refer to the default traingd algorithm\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
+\
+
+\f2\b On page 4, "use the training and validation sets.  Build the ANN with 2 inputs and 1 output." means we need to make sure test set is not used in this step? \
+
+\f3\b0 \
+the inputs do not refer to the different data set. The inputs are the dimensionality of the problem\
+\
+\
+
+\f2\b To plot the surface of the training data, do you have to combine the three mentioned functions (scatterInterpolant, plot3 and mesh)? If so, how do you combine them? \
+
+\f3\b0 \
+\pard\pardeftab720\sl440\partightenfactor0
+\cf3 figure;\
+xlin = linspace(min(X1),max(X1),1000) ;\
+ylin = linspace(min(X2),max(X2),1000) ;\
+[X,Y] = meshgrid(xlin,ylin) ;\
+f = scatteredInterpolant(X1,X2,Tnew) ;\
+Z = f(X,Y);\
+mesh(X,Y,Z);\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\b \cf3 Section 6 says to base the report on the exercises from sections 2 and 5. For section 2, does this refer to all 3 'high-level' exercises, or only to the 3 exercises in the 'personal regression' example? In other words, do the 'function approximation' and 'learning from noisy data' parts also have to be included in the report?\
+
+\f3\b0 \
+Yes, all three exercises\
+\
+\
+
+\f2\b [ How can you add 2 inputs in your neural network?\
+
+\f3\b0 \
+You simply join the different inputs together\
+\pard\pardeftab720\partightenfactor0
+\cf3 e.g. X = [X1 X2]\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\b \cf3 Yes we did it like that but then the numInputs whas still 1?\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0 \cf3 \
+It depends on the dimensionality  of X1 and X2. If these are rows, you can add them together with X = [X1; X2] to a 2 x n matrix. If it are column matrices, you can add them together with X = [X1 X2] to a n x 2 matrix B 
+\f2\b ]
+\f3\b0 \
+\
+\
+\
+
+\f2\b In part 3, what does p(D|w) signify?\
+
+\f3\b0 \
+The probability of the data given the weights\
+Which is the likelihood\
+In the case of binary classification, the likelihood is the - error of your network.\
+The probability of your target being 1/0\
+I can recommend that you check the code\
+\pard\pardeftab720\partightenfactor0
+\cf4 \outl0\strokewidth0 You can do this using open bayesNN\
+\uc0\u8232 \cf3 \outl0\strokewidth0 \strokec3 \uc0\u8232 
+\f2\b How does a set of weights make certain data more probable?
+\f3\b0 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 P(t=1| w;x) = 1 and P(t=0 |w;x) = 1-y  is your likelihood, written as a single equation this becomes P(t|w;x) = y^t * (t-y)^1-t  \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl440\partightenfactor0
+\ls1\ilvl0\cf3 This becomes the error of your network, how well does it predict the target values.\
+Based on this likelood the weights are changed\
+\pard\tx42\tx220\tx720\pardeftab720\li720\fi-720\sl440\partightenfactor0
+\ls1\ilvl0\cf3 The likelihood is also multiplied by a prior, which increases or decreases certain values. \
+In the zero centered gaussian case, you prefer small weights\uc0\u8232 \u8232 \u8232 \
+\pard\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl440\partightenfactor0
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 \u8232 \u8232 \
+\pard\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl440\partightenfactor0
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \uc0\u8232 \u8232 \
+\pard\pardeftab720\partightenfactor0
+\cf3 \
+\
+\uc0\u8232 \u8232 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl240\qr\partightenfactor0
+\ls2\ilvl0
+\f2\b\fs15 \cf5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 \uc0\u8232 
+\f3\b0\fs28 \cf3 \strokec3 \uc0\u8232 \u8232 \cb6 \
+}
