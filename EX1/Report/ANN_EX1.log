@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  8 MAR 2021 23:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  9 MAR 2021 17:15
 entering extended mode
 **./ANN_EX1.tex
 (ANN_EX1.tex
@@ -428,67 +428,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
 [1
 
 {C:/Users/Stijn/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-
- []
-
-
-LaTeX Warning: Reference `fig:surface' on page 2 undefined on input line 102.
-
-<surface.png, id=11, 1445.4pt x 815.29594pt>
+<surface.png, id=13, 1445.4pt x 815.29594pt>
 File: surface.png Graphic file (type png)
 <use surface.png>
 Package pdftex.def Info: surface.png  used on input line 106.
-(pdftex.def)             Requested size: 495.07779pt x 279.24962pt.
+(pdftex.def)             Requested size: 198.02809pt x 111.6899pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-[2 <./surface.png (PNG copy)>]
 
-LaTeX Warning: Reference `tab:design' on page 3 undefined on input line 118.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
  []
 
-[3] (ANN_EX1.aux)
+[2 <./surface.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
-LaTeX Warning: There were undefined references.
+ []
 
- ) 
+<After_simulation_of_5min_per.png, id=17, 1193.20781pt x 482.55281pt>
+File: After_simulation_of_5min_per.png Graphic file (type png)
+<use After_simulation_of_5min_per.png>
+Package pdftex.def Info: After_simulation_of_5min_per.png  used on input line 1
+69.
+(pdftex.def)             Requested size: 495.07779pt x 200.21886pt.
+<errorSurface.png, id=18, 1445.4pt x 484.81125pt>
+File: errorSurface.png Graphic file (type png)
+<use errorSurface.png>
+Package pdftex.def Info: errorSurface.png  used on input line 191.
+(pdftex.def)             Requested size: 297.04968pt x 99.63106pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./After_simulation_of_5min_per.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+[4 <./errorSurface.png (PNG copy)>] (ANN_EX1.aux) ) 
 Here is how much of TeX's memory you used:
- 8227 strings out of 479799
- 127133 string characters out of 2879599
- 455661 words of memory out of 3000000
- 25114 multiletter control sequences out of 15000+200000
+ 8242 strings out of 479799
+ 127559 string characters out of 2879599
+ 457661 words of memory out of 3000000
+ 25127 multiletter control sequences out of 15000+200000
  547024 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,9n,72p,1231b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/
-fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on ANN_EX1.pdf (3 pages, 1080441 bytes).
+ 66i,10n,72p,1337b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX/fon
+ts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
+Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/u
+plb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on ANN_EX1.pdf (4 pages, 1425948 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

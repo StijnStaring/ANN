@@ -1,0 +1,560 @@
+######################################
+Nummer of iteration: 1. 
+The Learning method: traingda. 
+The amount of hidden neurons: 5 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 4.947570e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 2. 
+The Learning method: traingda. 
+The amount of hidden neurons: 10 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 5.440997e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 3. 
+The Learning method: traingda. 
+The amount of hidden neurons: 15 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 5.948674e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 4. 
+The Learning method: traingda. 
+The amount of hidden neurons: 20 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 6.294413e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 5. 
+The Learning method: traingda. 
+The amount of hidden neurons: 25 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 6.361798e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 6. 
+The Learning method: traingda. 
+The amount of hidden neurons: 30 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 6.478391e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 7. 
+The Learning method: traingda. 
+The amount of hidden neurons: 35 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 6.604415e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 8. 
+The Learning method: traingda. 
+The amount of hidden neurons: 40 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 7.087992e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 9. 
+The Learning method: traingda. 
+The amount of hidden neurons: 45 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 7.231785e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 10. 
+The Learning method: traingda. 
+The amount of hidden neurons: 50 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 7.477166e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 11. 
+The Learning method: traingda. 
+The amount of hidden neurons: 55 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 8.036116e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 12. 
+The Learning method: traingda. 
+The amount of hidden neurons: 60 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 7.991070e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 13. 
+The Learning method: traingda. 
+The amount of hidden neurons: 65 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 7.707706e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 14. 
+The Learning method: traingda. 
+The amount of hidden neurons: 70 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 8.070551e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 15. 
+The Learning method: traingda. 
+The amount of hidden neurons: 75 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 9.064316e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 16. 
+The Learning method: traingda. 
+The amount of hidden neurons: 80 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 2.150609e+03 with 10 iterations. 
+######################################
+Nummer of iteration: 17. 
+The Learning method: traingda. 
+The amount of hidden neurons: 85 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 1.018087e+03 with 10 iterations. 
+######################################
+Nummer of iteration: 18. 
+The Learning method: traingda. 
+The amount of hidden neurons: 90 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 1.018895e+03 with 10 iterations. 
+######################################
+Nummer of iteration: 19. 
+The Learning method: traingda. 
+The amount of hidden neurons: 95 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 1.155659e+04 with 10 iterations. 
+######################################
+Nummer of iteration: 20. 
+The Learning method: traingda. 
+The amount of hidden neurons: 100 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 0 
+An average MSE on the test set of 1.108131e+03 with 10 iterations. 
+######################################
+Nummer of iteration: 21. 
+The Learning method: traingda. 
+The amount of hidden neurons: 5 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 4.807022e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 22. 
+The Learning method: traingda. 
+The amount of hidden neurons: 10 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 5.660486e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 23. 
+The Learning method: traingda. 
+The amount of hidden neurons: 15 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 6.148137e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 24. 
+The Learning method: traingda. 
+The amount of hidden neurons: 20 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 6.343565e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 25. 
+The Learning method: traingda. 
+The amount of hidden neurons: 25 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 6.462885e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 26. 
+The Learning method: traingda. 
+The amount of hidden neurons: 30 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 6.617278e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 27. 
+The Learning method: traingda. 
+The amount of hidden neurons: 35 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 6.686009e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 28. 
+The Learning method: traingda. 
+The amount of hidden neurons: 40 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 6.775947e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 29. 
+The Learning method: traingda. 
+The amount of hidden neurons: 45 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 6.803195e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 30. 
+The Learning method: traingda. 
+The amount of hidden neurons: 50 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 6.905499e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 31. 
+The Learning method: traingda. 
+The amount of hidden neurons: 55 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 7.152848e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 32. 
+The Learning method: traingda. 
+The amount of hidden neurons: 60 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 8.521696e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 33. 
+The Learning method: traingda. 
+The amount of hidden neurons: 65 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 7.429100e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 34. 
+The Learning method: traingda. 
+The amount of hidden neurons: 70 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 7.470727e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 35. 
+The Learning method: traingda. 
+The amount of hidden neurons: 75 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 7.587235e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 36. 
+The Learning method: traingda. 
+The amount of hidden neurons: 80 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 7.486405e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 37. 
+The Learning method: traingda. 
+The amount of hidden neurons: 85 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 7.757973e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 38. 
+The Learning method: traingda. 
+The amount of hidden neurons: 90 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 8.107620e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 39. 
+The Learning method: traingda. 
+The amount of hidden neurons: 95 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 8.491729e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 40. 
+The Learning method: traingda. 
+The amount of hidden neurons: 100 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 0 
+An average MSE on the test set of 8.351505e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 41. 
+The Learning method: traingda. 
+The amount of hidden neurons: 5 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 5.014884e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 42. 
+The Learning method: traingda. 
+The amount of hidden neurons: 10 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 5.535447e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 43. 
+The Learning method: traingda. 
+The amount of hidden neurons: 15 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 5.766798e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 44. 
+The Learning method: traingda. 
+The amount of hidden neurons: 20 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.174689e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 45. 
+The Learning method: traingda. 
+The amount of hidden neurons: 25 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.164909e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 46. 
+The Learning method: traingda. 
+The amount of hidden neurons: 30 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.492189e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 47. 
+The Learning method: traingda. 
+The amount of hidden neurons: 35 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.454638e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 48. 
+The Learning method: traingda. 
+The amount of hidden neurons: 40 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.767840e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 49. 
+The Learning method: traingda. 
+The amount of hidden neurons: 45 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 7.036952e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 50. 
+The Learning method: traingda. 
+The amount of hidden neurons: 50 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 7.645501e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 51. 
+The Learning method: traingda. 
+The amount of hidden neurons: 55 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 7.694822e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 52. 
+The Learning method: traingda. 
+The amount of hidden neurons: 60 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 7.903138e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 53. 
+The Learning method: traingda. 
+The amount of hidden neurons: 65 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.233589e+03 with 10 iterations. 
+######################################
+Nummer of iteration: 54. 
+The Learning method: traingda. 
+The amount of hidden neurons: 70 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 8.624494e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 55. 
+The Learning method: traingda. 
+The amount of hidden neurons: 75 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 9.134971e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 56. 
+The Learning method: traingda. 
+The amount of hidden neurons: 80 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 9.783448e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 57. 
+The Learning method: traingda. 
+The amount of hidden neurons: 85 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 1.017788e+03 with 10 iterations. 
+######################################
+Nummer of iteration: 58. 
+The Learning method: traingda. 
+The amount of hidden neurons: 90 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 9.840118e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 59. 
+The Learning method: traingda. 
+The amount of hidden neurons: 95 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 1.152182e+03 with 10 iterations. 
+######################################
+Nummer of iteration: 60. 
+The Learning method: traingda. 
+The amount of hidden neurons: 100 
+The amount of hidden layers + output layer: 2 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 1.197860e+03 with 10 iterations. 
+######################################
+Nummer of iteration: 61. 
+The Learning method: traingda. 
+The amount of hidden neurons: 5 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 4.840457e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 62. 
+The Learning method: traingda. 
+The amount of hidden neurons: 10 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 5.593229e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 63. 
+The Learning method: traingda. 
+The amount of hidden neurons: 15 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.107956e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 64. 
+The Learning method: traingda. 
+The amount of hidden neurons: 20 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.379451e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 65. 
+The Learning method: traingda. 
+The amount of hidden neurons: 25 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.483390e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 66. 
+The Learning method: traingda. 
+The amount of hidden neurons: 30 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.509446e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 67. 
+The Learning method: traingda. 
+The amount of hidden neurons: 35 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.663642e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 68. 
+The Learning method: traingda. 
+The amount of hidden neurons: 40 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.786662e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 69. 
+The Learning method: traingda. 
+The amount of hidden neurons: 45 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.935710e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 70. 
+The Learning method: traingda. 
+The amount of hidden neurons: 50 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 6.876726e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 71. 
+The Learning method: traingda. 
+The amount of hidden neurons: 55 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 7.041469e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 72. 
+The Learning method: traingda. 
+The amount of hidden neurons: 60 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 7.324152e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 73. 
+The Learning method: traingda. 
+The amount of hidden neurons: 65 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 7.088501e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 74. 
+The Learning method: traingda. 
+The amount of hidden neurons: 70 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 7.499051e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 75. 
+The Learning method: traingda. 
+The amount of hidden neurons: 75 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 7.702223e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 76. 
+The Learning method: traingda. 
+The amount of hidden neurons: 80 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 7.752905e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 77. 
+The Learning method: traingda. 
+The amount of hidden neurons: 85 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 8.147893e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 78. 
+The Learning method: traingda. 
+The amount of hidden neurons: 90 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 8.492933e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 79. 
+The Learning method: traingda. 
+The amount of hidden neurons: 95 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 8.258264e+02 with 10 iterations. 
+######################################
+Nummer of iteration: 80. 
+The Learning method: traingda. 
+The amount of hidden neurons: 100 
+The amount of hidden layers + output layer: 3 
+The regulation parameter: 2.000000e-01 
+An average MSE on the test set of 8.245165e+02 with 10 iterations. 

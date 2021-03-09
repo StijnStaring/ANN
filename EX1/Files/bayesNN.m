@@ -1,15 +1,17 @@
+clc
 clear all
 close all
+clearvars
 
 a=1;
 b=1;
 s=0.1;
-w1=(-a:s:b)';
+w1=(-a:s:b)';  % there are only two weights becaus you have only one neuron and two inputs
 w2=(-a:s:b)';
 
-X2=[-5 -5; 5 5];
+X2=[-5 -5; 5 5]; % contains the 2D input
 X4=[-5 -5; 5 5; 0 1; -1 0];
-T2=[0 ; 1];
+T2=[0 ; 1]; % zero --> circle, one --> cross
 T4=[0 ; 1; 0; 1];
 
 %**********************************
