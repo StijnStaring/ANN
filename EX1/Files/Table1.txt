@@ -1,0 +1,51 @@
+######################################
+Nummer of iterations: 10. 
+The Learning method: traingd. 
+R one iter: -8.000000e-03. 
+R 15 iter: 1.700000e-02. 
+R 1000 iter: 6.300000e-01. 
+######################################
+Nummer of iterations: 10. 
+The Learning method: traingda. 
+R one iter: -8.000000e-03. 
+R 15 iter: 2.400000e-02. 
+R 1000 iter: 8.860000e-01. 
+######################################
+Nummer of iterations: 10. 
+The Learning method: traincgf. 
+R one iter: 1.200000e-02. 
+R 15 iter: 7.500000e-01. 
+R 1000 iter: 9.990000e-01. 
+######################################
+Nummer of iterations: 10. 
+The Learning method: traincgp. 
+R one iter: 1.200000e-02. 
+R 15 iter: 7.360000e-01. 
+R 1000 iter: 9.990000e-01. 
+######################################
+Nummer of iterations: 10. 
+The Learning method: trainbfg. 
+R one iter: 1.100000e-02. 
+R 15 iter: 8.700000e-01. 
+R 1000 iter: 1. 
+######################################
+Nummer of iterations: 10. 
+The Learning method: trainlm. 
+R one iter: 8.220000e-01. 
+R 15 iter: 9.950000e-01. 
+R 1000 iter: 1. 
+######################################
+Nummer of iterations: 10. 
+The Learning method: trainbr. 
+R one iter: 8.290000e-01. 
+R 15 iter: 9.790000e-01. 
+R 1000 iter: 1. 
+
+
+The mse_test_a13 of method traingd has training error: 2.860000e-01.
+The mse_test_a13 of method traingda has training error: 1.050000e-01.
+The mse_test_a13 of method traincgf has training error: 1.000000e-03.
+The mse_test_a13 of method traincgp has training error: 1.000000e-03.
+The mse_test_a13 of method trainbfg has training error: 0.
+The mse_test_a13 of method trainlm has training error: 0.
+The mse_test_a13 of method trainbr has training error: 0.

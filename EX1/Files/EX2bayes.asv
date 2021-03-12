@@ -10,7 +10,7 @@ close all
 %%%%%%%%%%%
 
 % Configuration:
-H = 100;% Number of neurons in the hidden layer
+H = 50;% Number of neurons in the hidden layer
 delta_epochs = [1,14,985];% Number of epochs to train in each step
 epochs = cumsum(delta_epochs);
 
@@ -19,11 +19,11 @@ dx=0.05;% Decrease this value to increase the number of data points
 x=0:dx:3*pi;y=sin(x.^2);
 sigma=0.2;% Standard deviation of added noise
 yn=y+sigma*randn(size(y));% Add gaussian noise
-t=yn;% Targets. Change to yn to train on noisy data
+t=y;% Targets. Change to yn to train on noisy data
 
 % generation of the test data
 dx_t=0.003;% Decrease this value to increase the number of data points
-x_t=0:dx_t:3*pi;y_t=sin(x_t.^2);
+x_t=0:dx_t:3*pi;y_t=sin(x.^2);
 
 %creation of networks
 amount_iter = 10;
@@ -41,8 +41,8 @@ for i = 1:1:amount_iter
     init_weight_storage.B1{end+1} = net1.b{1};
     init_weight_storage.B2{end+1} = net1.b{2};
 end
-fileID = fopen('Table3.txt','w');
-for method = {'traingd','traingda','traincgf','traincgp','trainbfg','trainlm','trainbr'}
+fileID = fopen('Table1.txt','w');
+for method = {'traingd','traingda','traincgf','traincgp','trainbfg','trainlm'}
     average_crit = [0,0,0,0];
     for iter = 1:1:amount_iter
         net1=feedforwardnet(H,string(method));% Define the feedfoward net (hidden layers)
@@ -56,20 +56,21 @@ for method = {'traingd','traingda','traincgf','traincgp','trainbfg','trainlm','t
         %training and simulation
         net1.trainParam.epochs=delta_epochs(1);  % set the number of epochs for the training 
         net1=train(net1,x,t);   % train the networks --> using a batch learning approach (ofline learning)
-        a11=sim(net1,x_t);
+        a11=sim(net1,x);
 
         net1.trainParam.epochs=delta_epochs(2);
         net1=train(net1,x,t);
-        a12=sim(net1,x_t); 
+        a12=sim(net1,x); 
 
         net1.trainParam.epochs=delta_epochs(3);
         net1=train(net1,x,t); % training on the training set
-        a13=sim(net1,x_t);
+        a13=sim(net1,x);
 
-        % obtaining the performance on a test set. 
-        [~,~,r1] = postregm(a11,y_t);
+        % obtaining the training error on a test set. 
+        a13=sim(net1,x_t);
+        [~,~,r1] = postregm(a13,y_t);
         average_crit(1) = average_crit(1) + r1;
-        [~,~,r2] = postregm(a12,y_t);
+        [~,~,r2] = postregm(a13,y_t);
         average_crit(2) = average_crit(2) + r2;
         [~,~,r3] = postregm(a13,y_t);
         average_crit(3) = average_crit(3) + r3;
@@ -80,12 +81,12 @@ for method = {'traingd','traingda','traincgf','traincgp','trainbfg','trainlm','t
     end
     average_crit = average_crit/amount_iter;
     fprintf(fileID,'######################################\n');
-    fprintf(fileID,'Nummer of iterations: %d. \n', iter);
+    fprintf(fileID,'Nummer of iteration: %d. \n', iter);
     fprintf(fileID,'The Learning method: %s. \n', string(method));
     fprintf(fileID,'R one iter: %d. \n', round(average_crit(1),3));
     fprintf(fileID,'R 15 iter: %d. \n', round(average_crit(2),3));
     fprintf(fileID,'R 1000 iter: %d. \n', round(average_crit(3),3));
-    fprintf(fileID,'The mse_test_a13 of method %s has training error: %d.\n',string(method),round(average_crit(4),3));
+    fprintf('The mse_test_a13 of method %s has training error: %d.\n',string(method),round(average_crit(4),3));
     
 end
 
