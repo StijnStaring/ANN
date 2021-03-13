@@ -20,11 +20,11 @@ iterations = 5;
 number = 1; 
 best_setting = 1;
 current_best_mse = inf;
-for regulation_constant = 0:0.2:0.4 % 3 options
+for regulation_constant = 0.4 % 3 options
     for amountLayers = 1
-        for H = 1:2:9 % 5 options
+        for H = 5:5:50 % 5 options
              for alg1 = {'traingd'}
-                 for lag_value = 1:3:20 % 7 options
+                 for lag_value = 5:5:30 % 7 options
                     average_MSE = 0;
                     for iter = 1:1:iterations
                         [TrainData,TrainTarget] = getTimeSeriesTrainData(norm_training,lag_value); % you take two lag variables into account
@@ -79,7 +79,12 @@ fprintf(fileID,'The best settings are number: %d. \n',best_setting);
 fclose(fileID);
 
 
+% performance of the trained network on the test set
+MSE_out = test_performance(norm_test',net1,lag_value);
+
+
 function [MSE]=test_performance(data,net, lag)
+% data is inputed as 1xn array
     MSE = 0;
     current_inputs = data(1,1:lag)'; %3x1 array
     current_inputs = flip(current_inputs,2); % oldest value is at the top

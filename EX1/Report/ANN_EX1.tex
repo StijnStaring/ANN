@@ -143,7 +143,7 @@ It was found after simulations that the smallest average MSE is obtained when th
 Now the performance of the learned neural network is assessed. The network with the best performance on the validation set is trained for $ 5 $ minutes.
 Figure \ref{fig:After_simulation_of_5min_per} shows the distribution of the errors between the target values and the obtained predictions. A correlation coefficient of $ R = 98.3 $ is reached between target and prediction values on the test set which means there is a linear correlation. 
 Figure \ref{fig:errorSurface} shows the error between the targets and the predictions of the test set. The plane is calculated by subtracting the learned plane from the target plane. It can be seen that especially in the middle the neural network performed a better regression than on the sides. \\
-Things that could be done to improve the network are a more extensive parameter search and looking at the possibility to combine different learned networks. 
+Things that could be done to improve the network are a more extensive parameter search e.g. also looking in networks with different amount of neurons in the hidden layers and looking at the possibility to combine different learned networks. 
 
 %It can be seen that at the end the error on the test set is smaller than the error on the training set. This is possible however, this is normally not the case because the test set is data that is never seen by the network before. The MSE error on respectively the training and the test set is $ 1.29 \times 10^{-2} $ and $ 1.12 \times 10^{-2} $. \\ 
 

@@ -1,0 +1,737 @@
+######################################
+Nummer of setting: 1. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 1 
+The lag value: 1 
+An average MSE on the test set of 1.362000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 2. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 1 
+The lag value: 4 
+An average MSE on the test set of 9.620000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 3. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 1 
+The lag value: 7 
+An average MSE on the test set of 7.570000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 4. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 1 
+The lag value: 10 
+An average MSE on the test set of 9.760000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 5. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 1 
+The lag value: 13 
+An average MSE on the test set of 9.540000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 6. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 1 
+The lag value: 16 
+An average MSE on the test set of 8.040000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 7. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 1 
+The lag value: 19 
+An average MSE on the test set of 9.380000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 8. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 3 
+The lag value: 1 
+An average MSE on the test set of 1.301000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 9. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 3 
+The lag value: 4 
+An average MSE on the test set of 1.826000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 10. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 3 
+The lag value: 7 
+An average MSE on the test set of 6.770000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 11. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 3 
+The lag value: 10 
+An average MSE on the test set of 9.220000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 12. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 3 
+The lag value: 13 
+An average MSE on the test set of 1.057000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 13. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 3 
+The lag value: 16 
+An average MSE on the test set of 6.710000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 14. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 3 
+The lag value: 19 
+An average MSE on the test set of 9.350000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 15. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 5 
+The lag value: 1 
+An average MSE on the test set of 1.501000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 16. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 5 
+The lag value: 4 
+An average MSE on the test set of 1.723000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 17. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 5 
+The lag value: 7 
+An average MSE on the test set of 1.126000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 18. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 5 
+The lag value: 10 
+An average MSE on the test set of 9.810000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 19. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 5 
+The lag value: 13 
+An average MSE on the test set of 2.230000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 20. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 5 
+The lag value: 16 
+An average MSE on the test set of 9.230000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 21. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 5 
+The lag value: 19 
+An average MSE on the test set of 6.710000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 22. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 7 
+The lag value: 1 
+An average MSE on the test set of 1.268000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 23. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 7 
+The lag value: 4 
+An average MSE on the test set of 3.399000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 24. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 7 
+The lag value: 7 
+An average MSE on the test set of 5.940000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 25. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 7 
+The lag value: 10 
+An average MSE on the test set of 1.175000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 26. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 7 
+The lag value: 13 
+An average MSE on the test set of 6.270000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 27. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 7 
+The lag value: 16 
+An average MSE on the test set of 2.244000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 28. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 7 
+The lag value: 19 
+An average MSE on the test set of 1.291000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 29. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 9 
+The lag value: 1 
+An average MSE on the test set of 1.452000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 30. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 9 
+The lag value: 4 
+An average MSE on the test set of 1.980000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 31. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 9 
+The lag value: 7 
+An average MSE on the test set of 4.036000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 32. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 9 
+The lag value: 10 
+An average MSE on the test set of 8.380000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 33. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 9 
+The lag value: 13 
+An average MSE on the test set of 1.437000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 34. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 9 
+The lag value: 16 
+An average MSE on the test set of 1.096000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 35. 
+The Learning method: traingd. 
+The regulation parameter: 0 
+The amount of hidden neurons: 9 
+The lag value: 19 
+An average MSE on the test set of 1.866000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 36. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 1 
+An average MSE on the test set of 1.169000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 37. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 4 
+An average MSE on the test set of 9.710000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 38. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 7 
+An average MSE on the test set of 8.100000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 39. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 10 
+An average MSE on the test set of 8.360000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 40. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 13 
+An average MSE on the test set of 8.980000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 41. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 16 
+An average MSE on the test set of 6.150000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 42. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 19 
+An average MSE on the test set of 6.440000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 43. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 1 
+An average MSE on the test set of 1.217000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 44. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 4 
+An average MSE on the test set of 1.542000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 45. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 7 
+An average MSE on the test set of 1.099000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 46. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 10 
+An average MSE on the test set of 7.230000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 47. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 13 
+An average MSE on the test set of 8.270000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 48. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 16 
+An average MSE on the test set of 6.330000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 49. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 19 
+An average MSE on the test set of 7.420000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 50. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 1 
+An average MSE on the test set of 1.436000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 51. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 4 
+An average MSE on the test set of 1.449000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 52. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 7 
+An average MSE on the test set of 1.203000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 53. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 10 
+An average MSE on the test set of 1.232000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 54. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 13 
+An average MSE on the test set of 8.870000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 55. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 16 
+An average MSE on the test set of 9.660000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 56. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 19 
+An average MSE on the test set of 6.740000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 57. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 1 
+An average MSE on the test set of 1.395000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 58. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 4 
+An average MSE on the test set of 2.039000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 59. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 7 
+An average MSE on the test set of 7.070000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 60. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 10 
+An average MSE on the test set of 1.100000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 61. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 13 
+An average MSE on the test set of 3.548000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 62. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 16 
+An average MSE on the test set of 8.160000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 63. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 19 
+An average MSE on the test set of 5.870000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 64. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 1 
+An average MSE on the test set of 1.406000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 65. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 4 
+An average MSE on the test set of 1.449000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 66. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 7 
+An average MSE on the test set of 1.021000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 67. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 10 
+An average MSE on the test set of 1.473000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 68. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 13 
+An average MSE on the test set of 7.470000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 69. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 16 
+An average MSE on the test set of 4.286000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 70. 
+The Learning method: traingd. 
+The regulation parameter: 2.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 19 
+An average MSE on the test set of 7.530000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 71. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 1 
+An average MSE on the test set of 1.171000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 72. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 4 
+An average MSE on the test set of 1.057000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 73. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 7 
+An average MSE on the test set of 8.270000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 74. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 10 
+An average MSE on the test set of 9.780000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 75. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 13 
+An average MSE on the test set of 8.100000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 76. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 16 
+An average MSE on the test set of 5.750000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 77. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 1 
+The lag value: 19 
+An average MSE on the test set of 6.870000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 78. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 1 
+An average MSE on the test set of 1.169000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 79. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 4 
+An average MSE on the test set of 1.214000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 80. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 7 
+An average MSE on the test set of 9.250000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 81. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 10 
+An average MSE on the test set of 6.770000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 82. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 13 
+An average MSE on the test set of 4.920000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 83. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 16 
+An average MSE on the test set of 6.810000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 84. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 3 
+The lag value: 19 
+An average MSE on the test set of 5.020000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 85. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 1 
+An average MSE on the test set of 1.211000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 86. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 4 
+An average MSE on the test set of 9.970000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 87. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 7 
+An average MSE on the test set of 7.200000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 88. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 10 
+An average MSE on the test set of 1.026000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 89. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 13 
+An average MSE on the test set of 7.220000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 90. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 16 
+An average MSE on the test set of 5.670000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 91. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 5 
+The lag value: 19 
+An average MSE on the test set of 7.520000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 92. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 1 
+An average MSE on the test set of 1.423000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 93. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 4 
+An average MSE on the test set of 1.429000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 94. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 7 
+An average MSE on the test set of 3.500000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 95. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 10 
+An average MSE on the test set of 4.300000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 96. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 13 
+An average MSE on the test set of 6.040000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 97. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 16 
+An average MSE on the test set of 5.520000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 98. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 7 
+The lag value: 19 
+An average MSE on the test set of 7.380000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 99. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 1 
+An average MSE on the test set of 1.411000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 100. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 4 
+An average MSE on the test set of 1.397000e+00 with 5 iterations. 
+######################################
+Nummer of setting: 101. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 7 
+An average MSE on the test set of 5.850000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 102. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 10 
+An average MSE on the test set of 9.890000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 103. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 13 
+An average MSE on the test set of 8.090000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 104. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 16 
+An average MSE on the test set of 2.940000e-01 with 5 iterations. 
+######################################
+Nummer of setting: 105. 
+The Learning method: traingd. 
+The regulation parameter: 4.000000e-01 
+The amount of hidden neurons: 9 
+The lag value: 19 
+An average MSE on the test set of 5.760000e-01 with 5 iterations. 
+--------------------------- 
+The best settings are number: 104. 

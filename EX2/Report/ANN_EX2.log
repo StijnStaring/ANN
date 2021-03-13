@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  11 MAR 2021 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  13 MAR 2021 22:12
 entering extended mode
 **./ANN_EX2.tex
 (ANN_EX2.tex
@@ -425,33 +425,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[2] (ANN_EX2.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+[2]
+<learning_result.png, id=17, 1025.33063pt x 603.0028pt>
+File: learning_result.png Graphic file (type png)
+<use learning_result.png>
+Package pdftex.def Info: learning_result.png  used on input line 131.
+(pdftex.def)             Requested size: 396.06374pt x 232.92508pt.
+ [3 <./learning_result.png>] [4] (ANN_EX2.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8223 strings out of 479799
- 127085 string characters out of 2879599
- 453661 words of memory out of 3000000
- 25110 multiletter control sequences out of 15000+200000
- 547024 words of font info for 66 fonts, out of 3000000 for 9000
+ 8237 strings out of 479799
+ 127379 string characters out of 2879599
+ 460661 words of memory out of 3000000
+ 25122 multiletter control sequences out of 15000+200000
+ 547359 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,10n,72p,1543b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Progr
-am Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/urw/palatino/uplr8a.pfb>
-Output written on ANN_EX2.pdf (2 pages, 128858 bytes).
+ 66i,10n,72p,1636b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Stijn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/urw/palatino/uplr8a.pfb>
+Output written on ANN_EX2.pdf (4 pages, 198822 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
