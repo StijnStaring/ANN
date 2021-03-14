@@ -1,0 +1,24 @@
+######################################
+Nummer of setting: 1. 
+The lag value: 1 
+An average MSE on the test set of 3.742137e+03 with 5 iterations. 
+######################################
+Nummer of setting: 2. 
+The lag value: 4 
+An average MSE on the test set of 4.337666e+03 with 5 iterations. 
+######################################
+Nummer of setting: 3. 
+The lag value: 7 
+An average MSE on the test set of 3.558954e+03 with 5 iterations. 
+######################################
+Nummer of setting: 4. 
+The lag value: 10 
+An average MSE on the test set of 4.232862e+03 with 5 iterations. 
+######################################
+Nummer of setting: 5. 
+The lag value: 13 
+An average MSE on the test set of 4.843104e+03 with 5 iterations. 
+######################################
+Nummer of setting: 6. 
+The lag value: 16 
+An average MSE on the test set of 3.380311e+03 with 5 iterations. 

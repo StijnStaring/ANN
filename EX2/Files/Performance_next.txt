@@ -1,0 +1,5 @@
+######################################
+Nummer of setting: 1. 
+The lag value: 16 
+An average MSE on the test set of 1.673460e+03 with 1 iterations. 
+Best setting: 1. 
