@@ -1,0 +1,156 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+\setlength\parindent{0pt}
+\usepackage[english]{babel}
+\usepackage[dvinames]{xcolor}
+\usepackage[compact,small]{titlesec}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{marginnote}
+\usepackage[top=1.8cm, bottom=1.8cm, outer=1.8cm, inner=1.8cm, heightrounded, marginparwidth=2.5cm, marginparsep=0.5cm]{geometry}
+\usepackage{enumitem}
+\setlist{noitemsep,parsep=2pt}
+\newcommand{\highlight}[1]{\textcolor{kuleuven}{#1}}
+\usepackage{pythonhighlight}
+\usepackage{cleveref}
+\usepackage{graphicx}
+\graphicspath{{Pictures/}}
+\usepackage{algorithmic}
+\usepackage{tabularx}
+\usepackage{bm}
+\usepackage{subcaption}
+
+\newcommand{\nextyear}{\advance\year by 1 \the\year\advance\year by -1}
+\newcommand{\thisyear}{\the\year}
+\newcommand{\deadlineGroup}{November 27, \thisyear{} at 16:00 CET}
+\newcommand{\deadlineCode}{December 18, \thisyear{} at 16:00 CET}
+\newcommand{\deadlineReport}{January 4, \nextyear{} at 16:00 CET}
+
+\newcommand{\ReplaceMe}[1]{{\color{blue}#1}}
+\newcommand{\RemoveMe}[1]{{\color{purple}#1}}
+
+\setlength{\parskip}{5pt}
+
+%opening
+\title{Artificial Neural Networks: Exercise session 3}
+\author{Stijn Staring (r0620003)}
+
+\begin{document}
+\fontfamily{ppl}
+\selectfont{}
+
+\maketitle
+
+
+\section{Principal Component Analysis}
+Principal component analysis is a method for dimensionality reduction. A principal component analysis uses the eigenvectors of the covariance matrix of the original data as principal components to conduct a linear transformation of the original data to a lower dimension. The eigenvectors that correspond to the largest eigenvalues are considered the most important principal components that determine data appearance the most.
+
+\begin{equation}\label{eq:form1}
+	\bm{z} = \bm{E}^T\bm{x}.
+\end{equation}
+
+In Eq. \ref{eq:form1}, $ \bm{x} $ is an original data point with dimensions $ \mathbb{R}^p $ and $ \bm{z} $ is the corresponding data point with reduced dimensions $ \mathbb{R}^q $. $ \bm{E}^T $ is the used transformation matrix with dimensions $ q \times p $ and with the $ q $ largest eigenvectors of the covariance matrix as rows. The new dimensions of the data point equals the amount of chosen eigenvectors that span the new subspace. If all eigenvalues are distinct, $ \bm{E} $ is orthogonal and the original data point can be retrieved by multiplying \ref{eq:form1} by $ \bm{E} $ because of the orthogonal property: $ \bm{E}\cdot \bm{E}^{T} = \bm{I} $.\\
+
+The first task performed is the comparison of the dimensionality reduction of random data in comparison to highly correlated data. It is found that there are less eigenvectors needed when the same RMSE is considered. The second task is to perform PCA on handwritten images of the digit 3 taken from the US Postal Service database. In this dataset every image consists out of $ 16 \times 16 $ pixels which is represented by an array of 256 floating numbers. The dataset consists out of a total of 500 images of the digit 3. When the mean array is calculated, also the mean digit 3 is obtained which is displayed in Figure \ref{fig:mean_three}. The covariance matrix is calculated for the data set and the eigenvalues derived are shown by Figure \ref{fig:50_largest_eigenvalues}. The influence of the amount of eigenvectors is demonstrated in Figure \ref{fig:increasing_eigenvectors}. When only one eigenvector is used, the reduced images are very similar. This means that the eigenvector with the largest eigenvalue focusses on the intrinsic shape of a 3 and in what distinguishes it from an other number e.g. a five. when more eigenvectors are used and the dimensionality of the spanned subspace increases, different variations in the digit three becomes clear. 
+
+\begin{figure}[hb]
+	\centering
+	\begin{subfigure}[b]{0.49\textwidth}
+		\centering
+		\includegraphics[width=0.55\linewidth]{mean_three.png}
+		\caption{Mean image of digit 3}
+		\label{fig:mean_three}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.49\textwidth}
+		\centering
+		\includegraphics[width=0.6\linewidth]{50_largest_eigenvalues.png}
+		\caption{Eigenvalues}
+		\label{fig:50_largest_eigenvalues}
+	\end{subfigure}
+	\begin{subfigure}[b]{1.0\textwidth}
+		\centering
+		\includegraphics[width=0.4\linewidth]{reconstruction_x_principal_eigenvalues.png}
+		\caption{Increasing amount of eigenvectors}
+		\label{fig:increasing_eigenvectors}
+	\end{subfigure}		
+	\caption{Results of applying PCA on the US Postal Service database.}
+	\label{fig:three_series}
+\end{figure}
+
+- Logical that when more eigenvectors are included the representation error decreases because the dimensionality is less reduced. However when the derivative of the function is assessed, it can be seen that in the beginning the function decreases much faster than at the end. This means that by a small amount of eigenvectors already a good representation is possible of the original data. 
+
+- the quality of the contribution of an eigenvector corresponds to the size of the eigenvalue. It can be seen in the figure that the quality of the the eigenvectors rapidly decreases. This again stresses the fact that already good representations of the digit 3 are possible with a small amount of eigenvectors. 
+
+- reconstruction error should be machine precision
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[c]{0.49\textwidth}
+		\centering
+		\includegraphics[width=0.85\linewidth]{Reconstruction_error1.png}
+		\caption{}
+		\label{fig:Reconstruction_error1}
+	\end{subfigure}
+	\begin{subfigure}[c]{0.49\textwidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{Reconstruction_error2.png}
+		\caption{}
+		\label{fig:Reconstruction_error2}
+	\end{subfigure}
+	\caption{The influence of the amount of eigenvectors used.}
+	\label{fig:three_series}
+\end{figure}
+
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1.\textwidth]{rep2Attractors.png}
+%	\caption{All the different attractor points found in a 2D plane.}
+%	\label{fig:rep2Attractors}
+%\end{figure}
+
+
+
+
+
+
+
+
+- The quality of the reduction depends on how close the sum of the largest q eigenvalues is to the sum of all p eigenvalues --> this means that the eigenvectors corresponding to large eigenvalues contribute more to the quality --> more fundamental principal component.
+
+- Reason that E transpose is same as inverse is because the matrix consisting of eigenvectors is orthogonal matrix --> E*ET gives I. 
+
+
+
+
+
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1.\textwidth]{rep2Attractors.png}
+%	\caption{All the different attractor points found in a 2D plane.}
+%	\label{fig:rep2Attractors}
+%\end{figure}
+
+%\begin{table}
+%	\centering
+%	\begin{tabular}{@{}clr@{}} \toprule
+%		\textbf{Attractor} & \textbf{Point} & \textbf{Stability}\\\midrule
+%		Attractor $ 1 $ & $ [1;1] $ & Stable\\
+%		Attractor $ 2 $ & $ [-1;-1] $ & Stable\\
+%		Attractor $ 3 $ & $ [1;-1] $ & Stable\\
+%		Attractor $ 4 $ & $ [-1;1] $ & Stable\\
+%		Attractor $ 5 $ & $ [0;0] $ & Unstable\\
+%		Attractor $ 6 $ & $ [0;1] $ & Unstable\\
+%		Attractor $ 7 $ & $ [0;-1] $ & Unstable\\
+%		Attractor $ 8 $ & $ [1;0] $ & Unstable\\
+%		Attractor $ 9 $ & $ [-1;0] $ & Unstable\\\bottomrule
+%	\end{tabular}
+%	\caption{Overview of the different attractor points found in a 2D plane.}
+%	\label{tab:att}
+%\end{table}
+
+\bibliographystyle{abbrv}
+%\bibliography{ANN1}
+
+\end{document}
