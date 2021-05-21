@@ -1,3 +1,6 @@
+clear vars
+close all
+clc
 
 %% Image Category Classification Using Deep Learning
 % This example shows how to use a pre-trained Convolutional Neural Network
