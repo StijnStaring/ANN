@@ -1,5 +1,6 @@
 clear all
 close all
+clc
 nntraintool('close');
 nnet.guis.closeAllViews();
 
@@ -26,22 +27,22 @@ plotWeights(autoenc1);
 feat1 = encode(autoenc1,xTrainImages);
 
 % Layer 2
-hiddenSize2 = 50;
-autoenc2 = trainAutoencoder(feat1,hiddenSize2, ...
-    'MaxEpochs',100, ...
-    'L2WeightRegularization',0.002, ...
-    'SparsityRegularization',4, ...
-    'SparsityProportion',0.1, ...
-    'ScaleData', false);
-
-feat2 = encode(autoenc2,feat1);
+% hiddenSize2 = 50;
+% autoenc2 = trainAutoencoder(feat1,hiddenSize2, ...
+%     'MaxEpochs',100, ...
+%     'L2WeightRegularization',0.002, ...
+%     'SparsityRegularization',4, ...
+%     'SparsityProportion',0.1, ...
+%     'ScaleData', false);
+% 
+% feat2 = encode(autoenc2,feat1);
 
 % Layer 3
-softnet = trainSoftmaxLayer(feat2,tTrain,'MaxEpochs',400);
+softnet = trainSoftmaxLayer(feat1,tTrain,'MaxEpochs',400);
 
 
 % Deep Net
-deepnet = stack(autoenc1,autoenc2,softnet);
+deepnet = stack(autoenc1,softnet);
 
 
 % Test deep net
