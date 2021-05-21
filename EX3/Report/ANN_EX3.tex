@@ -57,7 +57,7 @@ In Eq. \ref{eq:form1}, $ \bm{x} $ is an original data point with dimensions $ \m
 
 The first task performed is the comparison of the dimensionality reduction of random data in comparison to highly correlated data. It is found that there are less eigenvectors needed for the highly correlated data when the same RMSE is considered. The second task is to perform PCA on handwritten images of the digit 3 taken from the US Postal Service database. In this database every image consists out of $ 16 \times 16 $ pixels which is represented by an array of 256 floating numbers. The database consists out of a total of 500 images of the digit 3. When the mean array is calculated, also the mean digit 3 is obtained which is displayed in Figure \ref{fig:mean_three}. The covariance matrix is calculated for the data set and the eigenvalues derived are shown by Figure \ref{fig:50_largest_eigenvalues}. The influence of the amount of eigenvectors is demonstrated in Figure \ref{fig:increasing_eigenvectors}. When only one eigenvector is used, the reduced images are very similar. This means that the eigenvector with the largest eigenvalue focusses on the intrinsic shape of a 3. This means in what distinguishes a 3 from another number e.g. a 5. when more eigenvectors are used and the dimensionality of the spanned subspace increases, different variations of the digit 3 becomes clear. 
 
-\begin{figure}[hb]
+\begin{figure}[h!]
 	\centering
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
@@ -102,6 +102,27 @@ In Figure \ref{fig:Results2} the effect of the number of eigenvectors on the RMS
 \end{figure}
 
 \section{Stacked Autoencoders}
+An autoencoder is an artificial network that learns efficient  encodings of the original data. This is done to force the original data to be represented by only a limit amount of neurons causing a dimensionality reduction (encoding) after which the original data is reconstructed (decoding) and compared with the original input. When the outputs after decoding resemble only have a small reconstruction error, this means that the hidden layer that performed a dimensionality reduction, was able to identify the most important components that determine the data appearance, similarly as what was the goal of the principal component analysis. Stacked autoencoders refers to the subsequently use of autoencoders where the hidden layer of a previous encoder serves as inputs of a next one. Applications of dimensionality reduction making use of autoencoders are:
+\begin{itemize}
+	\item Image compression
+	\item Denoising
+	\item Feature extraction
+\end{itemize}
+
+Image compression 
+
+- stacked implies to the sequential use of different autoencoders. 
+
+The use o
+- the use of an autoencoder and its constraints can be useful to perform a dimensionality reduction and to identify the important  components that determine data appearance the most, similar as what was the goal of the principal component analysis. Applications where a dimensionality reduction is important is for example preprocessing, where noise is removed using an autoencoder or PCA. 
+
+- autoencoder can also be used when training a deep neural network layer per layer. Each layer is supposed to learn features at a different level of abstraction. By using a sparse autoencoder, the layers are forced to reduce the dimensionality and learn important feature of the inputs. The hidden layer of the autoencoder, which corresponds to one of the hidden layers of the deep neural network is feeded as input of the next autoencoder. Using training with an autoencoder don't needs labels. A suitable solution is to make use of a validation set and early stopping. 
+
+- too many hidden units --> doesn't force the autoencoder to make generalizations --> just remembers the completer pictures. This means that the error during training can become low, but because nothing is learned --> the performance on the test set will be unsatisfactory. This is again to overfitting. 
+
+- the number of layers --> the network becomes more expressive. Each layer can learn features at a different level of abstraction. This means that more care has to be taken with overfitting. A very expressive network doesn't make generalizations but remembers the training data. 
+
+
 
 
 %\begin{table}

@@ -26,7 +26,7 @@ echo on
 % Copyright 2014-2015 The MathWorks, Inc.
 
 %press any key to go on
-%pause;
+pause;
 
 %% Data set
 % This example uses synthetic data throughout, for training and testing.
@@ -59,7 +59,7 @@ echo on
 % zero.
 
 %press any key to go on
-%pause;
+pause;
 
 %% Training the first autoencoder
 % Begin by training a sparse autoencoder on the training data without using
@@ -77,7 +77,7 @@ echo on
 rng('default')
 
 %press any key to go on
-%pause;
+pause;
 %%
 % Set the size of the hidden layer for the autoencoder. For the autoencoder
 % that you are going to train, it is a good idea to make this smaller than
@@ -85,7 +85,7 @@ rng('default')
 hiddenSize1 = 100;
 
 %press any key to go on
-%pause;
+pause;
 %%
 % The type of autoencoder that you will train is a sparse autoencoder. This
 % autoencoder uses regularizers to learn a sparse representation in the
@@ -120,7 +120,7 @@ autoenc1 = trainAutoencoder(xTrainImages,hiddenSize1, ...
     'ScaleData', false);
 
 %press any key to go on
-%pause;
+pause;
 %%
 % You can view a diagram of the autoencoder. The autoencoder is comprised
 % of an encoder followed by a decoder. The encoder maps an input to a 
@@ -130,7 +130,7 @@ autoenc1 = trainAutoencoder(xTrainImages,hiddenSize1, ...
 view(autoenc1)
 
 %press any key to go on
-%pause;
+pause;
 %% Visualizing the weights of the first autoencoder
 % The mapping learned by the encoder part of an autoencoder can be useful
 % for extracting features from data. Each neuron in the encoder has a
@@ -142,7 +142,7 @@ figure;
 plotWeights(autoenc1);
 
 %press any key to go on
-%pause;
+pause;
 %%
 % You can see that the features learned by the autoencoder represent curls
 % and stroke patterns from the digit images.
@@ -156,7 +156,7 @@ plotWeights(autoenc1);
 feat1 = encode(autoenc1,xTrainImages);
 
 %press any key to go on
-%pause;
+pause;
 %% Training the second autoencoder
 % After training the first autoencoder, you train the second autoencoder in
 % a similar way. The main difference is that you use the features that were
@@ -174,7 +174,7 @@ autoenc2 = trainAutoencoder(feat1,hiddenSize2, ...
     'ScaleData', false);
 
 %press any key to go on
-%pause;
+pause;
 %%
 % Once again, you can view a diagram of the autoencoder with the
 % |view| function.
@@ -182,7 +182,7 @@ autoenc2 = trainAutoencoder(feat1,hiddenSize2, ...
 view(autoenc2)
 
 %press any key to go on
-%pause;
+pause;
 %%
 % You can extract a second set of features by passing the previous set
 % through the encoder from the second autoencoder.
@@ -190,7 +190,7 @@ view(autoenc2)
 feat2 = encode(autoenc2,feat1);
 
 %press any key to go on
-%pause;
+pause;
 %%
 % The original vectors in the training data had 784 dimensions. After
 % passing them through the first encoder, this was reduced to 100
@@ -199,7 +199,7 @@ feat2 = encode(autoenc2,feat1);
 % 50-dimensional vectors into different digit classes.
 
 %press any key to go on
-%pause;
+pause;
 %% Training the final softmax layer
 % Train a softmax layer to classify the 50-dimensional feature vectors.
 % Unlike the autoencoders, you train the softmax layer in a supervised
@@ -208,14 +208,14 @@ feat2 = encode(autoenc2,feat1);
 softnet = trainSoftmaxLayer(feat2,tTrain,'MaxEpochs',400);
 
 %press any key to go on
-%pause;
+pause;
 %%
 % You can view a diagram of the softmax layer with the |view| function.
 
 view(softnet)
 
 %press any key to go on
-%pause;
+pause;
 %% Forming a stacked neural network
 % You have trained three separate components of a deep neural network in
 % isolation. At this point, it might be useful to view the three neural
@@ -227,7 +227,7 @@ view(autoenc2)
 view(softnet)
 
 %press any key to go on
-%pause;
+pause;
 %%
 % As was explained, the encoders from the autoencoders have been used to
 % extract features. You can stack the encoders from the autoencoders 
@@ -236,7 +236,7 @@ view(softnet)
 deepnet = stack(autoenc1,autoenc2,softnet);
 
 %press any key to go on
-%pause;
+pause;
 %%
 % You can view a diagram of the stacked network with the |view| function.
 % The network is formed by the encoders from the autoencoders and the
@@ -244,7 +244,7 @@ deepnet = stack(autoenc1,autoenc2,softnet);
 view(deepnet)
 
 %press any key to go on
-%pause;
+pause;
 %%
 % With the full deep network formed, you can compute the results on the
 % test set. To use images with the stacked network, you have to reshape the
@@ -271,7 +271,7 @@ end
 echo on
 
 %press any key to go on
-%pause;
+pause;
 %%
 % You can visualize the results with a confusion matrix. The numbers in the
 % bottom right-hand square of the matrix give the overall accuracy.
@@ -281,7 +281,7 @@ figure;
 plotconfusion(tTest,y);
 
 %press any key to go on
-%%pause;
+pause;
 %% Fine tuning the deep neural network
 % The results for the deep neural network can be improved by performing
 % backpropagation on the whole multilayer network. This process is often
@@ -306,7 +306,7 @@ echo on;
 deepnet = train(deepnet,xTrain,tTrain);
 
 %press any key to go on
-%pause;
+pause;
 %%
 % You then view the results again using a confusion matrix.
 

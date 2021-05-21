@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  21 MAY 2021 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  21 MAY 2021 12:53
 entering extended mode
 **./ANN_EX3.tex
 (ANN_EX3.tex
@@ -620,6 +620,9 @@ ng)
 Package pdftex.def Info: Pictures//reconstruction_x_principal_eigenvalues.png  
 used on input line 76.
 (pdftex.def)             Requested size: 198.02809pt x 131.10878pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <Pictures//Reconstruction_error1.png, id=26, 338.01282pt x 238.64156pt>
 File: Pictures//Reconstruction_error1.png Graphic file (type png)
 <use Pictures//Reconstruction_error1.png>
@@ -640,30 +643,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 {C:/Users/Stijn/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2 <./Pictures/
 /mean_three.png> <./Pictures//50_largest_eigenvalues.png> <./Pictures//reconstr
 uction_x_principal_eigenvalues.png> <./Pictures//Reconstruction_error1.png> <./
-Pictures//Reconstruction_error2.png>] (ANN_EX3.aux)
+Pictures//Reconstruction_error2.png>] [3] (ANN_EX3.aux)
 Package rerunfilecheck Info: File `ANN_EX3.out' has not changed.
 (rerunfilecheck)             Checksum: A8CA627DAEC66BE5B2D855D8021BD3B3;118.
  ) 
 Here is how much of TeX's memory you used:
- 13358 strings out of 479799
- 213426 string characters out of 2879599
- 553838 words of memory out of 3000000
- 30107 multiletter control sequences out of 15000+200000
- 551932 words of font info for 83 fonts, out of 3000000 for 9000
+ 13363 strings out of 479799
+ 213491 string characters out of 2879599
+ 554838 words of memory out of 3000000
+ 30110 multiletter control sequences out of 15000+200000
+ 552267 words of font info for 84 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,8n,74p,1600b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
-KTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/pala
-tino/uplr8a.pfb>
-Output written on ANN_EX3.pdf (2 pages, 289661 bytes).
+ <C:\Users\Stijn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiK
+TeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/ur
+w/palatino/uplr8a.pfb>
+Output written on ANN_EX3.pdf (3 pages, 294638 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
  42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
