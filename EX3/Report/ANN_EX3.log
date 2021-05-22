@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  22 MAY 2021 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  22 MAY 2021 16:41
 entering extended mode
 **./ANN_EX3.tex
 (ANN_EX3.tex
@@ -601,18 +601,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-<Pictures//mean_three.png, id=44, 118.94438pt x 100.87688pt>
+<Pictures//mean_three.png, id=36, 118.94438pt x 100.87688pt>
 File: Pictures//mean_three.png Graphic file (type png)
 <use Pictures//mean_three.png>
 Package pdftex.def Info: Pictures//mean_three.png  used on input line 64.
 (pdftex.def)             Requested size: 133.42569pt x 113.16449pt.
-<Pictures//50_largest_eigenvalues.png, id=45, 134.00063pt x 102.3825pt>
+<Pictures//50_largest_eigenvalues.png, id=37, 134.00063pt x 102.3825pt>
 File: Pictures//50_largest_eigenvalues.png Graphic file (type png)
 <use Pictures//50_largest_eigenvalues.png>
 Package pdftex.def Info: Pictures//50_largest_eigenvalues.png  used on input li
 ne 70.
 (pdftex.def)             Requested size: 145.55597pt x 111.2104pt.
-<Pictures//reconstruction_x_principal_eigenvalues.png, id=46, 260.172pt x 172.2
+<Pictures//reconstruction_x_principal_eigenvalues.png, id=38, 260.172pt x 172.2
 435pt>
 File: Pictures//reconstruction_x_principal_eigenvalues.png Graphic file (type p
 ng)
@@ -623,13 +623,13 @@ used on input line 76.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Pictures//Reconstruction_error1.png, id=54, 338.01282pt x 238.64156pt>
+<Pictures//Reconstruction_error1.png, id=46, 338.01282pt x 238.64156pt>
 File: Pictures//Reconstruction_error1.png Graphic file (type png)
 <use Pictures//Reconstruction_error1.png>
 Package pdftex.def Info: Pictures//Reconstruction_error1.png  used on input lin
 e 90.
 (pdftex.def)             Requested size: 206.20369pt x 145.5857pt.
-<Pictures//Reconstruction_error2.png, id=55, 332.74312pt x 231.11343pt>
+<Pictures//Reconstruction_error2.png, id=47, 332.74312pt x 231.11343pt>
 File: Pictures//Reconstruction_error2.png Graphic file (type png)
 <use Pictures//Reconstruction_error2.png>
 Package pdftex.def Info: Pictures//Reconstruction_error2.png  used on input lin
@@ -668,48 +668,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
 [4pdfTeX warning (ext4): destination with the same identifier (name{equation.3.
 2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.183 \end{document}
+l.198 \end{document}
                     ] (ANN_EX3.aux)
-
-Package rerunfilecheck Warning: File `ANN_EX3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ANN_EX3.out':
-(rerunfilecheck)             Before: 7C80BCEF25618E0296699DA42B40A6C3;572
-(rerunfilecheck)             After:  396108EB61FC5EEB6DFFA029701E43F0;440.
+Package rerunfilecheck Info: File `ANN_EX3.out' has not changed.
+(rerunfilecheck)             Checksum: 396108EB61FC5EEB6DFFA029701E43F0;440.
  ) 
 Here is how much of TeX's memory you used:
- 13385 strings out of 479799
- 213794 string characters out of 2879599
- 554844 words of memory out of 3000000
- 30121 multiletter control sequences out of 15000+200000
+ 13381 strings out of 479799
+ 213734 string characters out of 2879599
+ 554841 words of memory out of 3000000
+ 30119 multiletter control sequences out of 15000+200000
  552876 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,8n,74p,1600b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
- <C:\Users\Stijn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm10
-00.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/
-Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
-s/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTe
-X/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/
-palatino/uplr8a.pfb>
-Output written on ANN_EX3.pdf (4 pages, 311452 bytes).
+ <C:\Users\Stijn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiK
+TeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/ur
+w/palatino/uplr8a.pfb>
+Output written on ANN_EX3.pdf (4 pages, 311368 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

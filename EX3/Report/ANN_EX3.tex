@@ -147,8 +147,23 @@ The dimensions of the inputs only change after a convolution layer or pooling la
 	\end{equation}   
 \end{subequations}
 
-The inputs for the second convolution layer are therefore 96 feature maps with dimensions $ 27 \times 27 \times 1$ and the inputs before the fully connected layers are 256 feature maps with dimensions $ 6 \times 6 \times 1$. The original image is broken down a large amount of small feature maps. The advantage of a CNN wit respect to a conventional fully connected neural network is as discussed below the dimensionality reduction done by extracting important features which are then feeded to a fully connected neural network.\\
-During te
+The inputs for the second convolution layer are therefore 96 feature maps with dimensions $ 27 \times 27 \times 1$ and the inputs before the fully connected layers are 256 feature maps with dimensions $ 6 \times 6 \times 1$. The original image is broken down in a large amount of small feature maps. The advantage of a CNN with respect to a conventional fully connected neural network is its improved accuracy and the avoidance of learning an huge amount of weights.\\
+
+During the application of a CNN on the handwritten digits, it is found that often there is a tradeoff between more detailed feature detection and a higher calculation load. Enough kernels have to be used in each convolutional layer to identify enough features. A lower stride and a large enough dimensionality of the kernel has to be used in the convolution layer. However, all the three improvements lead to a large calculation load. A rule of thumb, is when the input dimension of the convolution layer is large, also the dimensions of the kernel are taken larger, but less  kernels are used. On deeper convolution layers, the dimensions of the inputs are smaller and therefore also the kernels are smaller, but more kernels are used. The use of more convolution layers, gives more complex feature detection but increases calculation load. The fully connected neural network should be large enough to be able to explain the extracted features in a classification result. A smaller pooling dimension and stride retains more information, but gives an higher calculation load. Not much difference was found between max and mean pooling.
+
+
+%, but higher dimensions of the kernel again lead to an higher computation load. 
+%
+%- can be seen that when the inputs to the convolution layer are large, also the dimensions of the kernel is taken larger, but less amount of different kernels are used. On deeper layers, the dimensions of the inputs are smaller and therefore also smaller kernels are often used, but to compensate this also more features are detected.
+%
+%- the use of more convolution layers, allows to learn more complex features. 
+%
+%- the fully connected neural network should be large enough to be able to explain the extracted features towards a classification result. 
+%
+%- a smaller pooling stride gives less reduction, but a higher calculation load. If it is set to high, relevant information can be lost. 
+%
+%- not much difference was found between max and mean pooling
+
 
 
 
