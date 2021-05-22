@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  21 MAY 2021 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  22 MAY 2021 12:08
 entering extended mode
 **./ANN_EX3.tex
 (ANN_EX3.tex
@@ -601,18 +601,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-<Pictures//mean_three.png, id=32, 118.94438pt x 100.87688pt>
+<Pictures//mean_three.png, id=44, 118.94438pt x 100.87688pt>
 File: Pictures//mean_three.png Graphic file (type png)
 <use Pictures//mean_three.png>
 Package pdftex.def Info: Pictures//mean_three.png  used on input line 64.
 (pdftex.def)             Requested size: 133.42569pt x 113.16449pt.
-<Pictures//50_largest_eigenvalues.png, id=33, 134.00063pt x 102.3825pt>
+<Pictures//50_largest_eigenvalues.png, id=45, 134.00063pt x 102.3825pt>
 File: Pictures//50_largest_eigenvalues.png Graphic file (type png)
 <use Pictures//50_largest_eigenvalues.png>
 Package pdftex.def Info: Pictures//50_largest_eigenvalues.png  used on input li
 ne 70.
 (pdftex.def)             Requested size: 145.55597pt x 111.2104pt.
-<Pictures//reconstruction_x_principal_eigenvalues.png, id=34, 260.172pt x 172.2
+<Pictures//reconstruction_x_principal_eigenvalues.png, id=46, 260.172pt x 172.2
 435pt>
 File: Pictures//reconstruction_x_principal_eigenvalues.png Graphic file (type p
 ng)
@@ -623,13 +623,13 @@ used on input line 76.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Pictures//Reconstruction_error1.png, id=42, 338.01282pt x 238.64156pt>
+<Pictures//Reconstruction_error1.png, id=54, 338.01282pt x 238.64156pt>
 File: Pictures//Reconstruction_error1.png Graphic file (type png)
 <use Pictures//Reconstruction_error1.png>
 Package pdftex.def Info: Pictures//Reconstruction_error1.png  used on input lin
 e 90.
 (pdftex.def)             Requested size: 206.20369pt x 145.5857pt.
-<Pictures//Reconstruction_error2.png, id=43, 332.74312pt x 231.11343pt>
+<Pictures//Reconstruction_error2.png, id=55, 332.74312pt x 231.11343pt>
 File: Pictures//Reconstruction_error2.png Graphic file (type png)
 <use Pictures//Reconstruction_error2.png>
 Package pdftex.def Info: Pictures//Reconstruction_error2.png  used on input lin
@@ -653,15 +653,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-[3] (ANN_EX3.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{equation.3.
+2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.187 \end{document}
+                    ] (ANN_EX3.aux)
 Package rerunfilecheck Info: File `ANN_EX3.out' has not changed.
-(rerunfilecheck)             Checksum: 7E31DCF36127CDA619C60961F79E7F58;377.
+(rerunfilecheck)             Checksum: 7C80BCEF25618E0296699DA42B40A6C3;572.
  ) 
 Here is how much of TeX's memory you used:
- 13375 strings out of 479799
- 213670 string characters out of 2879599
- 554841 words of memory out of 3000000
- 30117 multiletter control sequences out of 15000+200000
+ 13385 strings out of 479799
+ 213794 string characters out of 2879599
+ 554844 words of memory out of 3000000
+ 30121 multiletter control sequences out of 15000+200000
  552876 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,8n,74p,1600b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -675,9 +700,9 @@ m/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
 les/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiK
 TeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/ur
 w/palatino/uplr8a.pfb>
-Output written on ANN_EX3.pdf (3 pages, 302168 bytes).
+Output written on ANN_EX3.pdf (4 pages, 311587 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

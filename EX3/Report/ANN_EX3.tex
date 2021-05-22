@@ -125,18 +125,37 @@ The default settings give already very satisfactory results and have before fine
 
 Fine-tuning causes an additional increase of the correctness of classification and is necessary if the the method using autoencoders wants to outperform the conventional way of training neural networks with default parameter values, which achieved a classification accuracy of $ 95.36\% $ and $ 97.24\%$ for respectively the use of one and two hidden layers. Fine-tuning is important because now the network is seen as a whole and the final classification error influences all the layers simultaneously by making use of back propagation. In comparison, first every hidden layer and softmax layer is trained individually and afterwards stacked together. Only one hidden layer is needed together with 100 hidden units and 400 epochs to outperform the conventional neural networks. An average classification correctness was found of $ 98.88\% $ and fine-tuning only leads to an improvement of $ 0.28\% $. 
 
-\section{Convolutional Neural }
+\section{Convolutional Neural Network}
+When processing images to extract features, every pixel of the image is an individual input. When high resolution images are processed, a lot of inputs are given to a conventional neural network and the amount of weights that should be learned blows up. This has as consequence that the use of conventional neural networks is not possible anymore due to the high calculation load. In order to deal with this two assumptions are made. The first assumption is stationarity or translation invariance, which means that whatever patch of the image is assessed the network should repond similar on the use of feature detectors. For example, the feature that is looked for are edges, it is assumed that an edge is everywhere perceived the same in the image. The second assumption is locality principle which means that only a small neighbourhood of the image is assessed. This is a suitable assumption for images, because a pixel is much more related with pixels close by than from a different part of the image. Because of this assumption the CNN can only captures local spatial patterns in the data and before using a CNN the developer should be aware that the 2D (or 3D) that it feeds to the network does contain a certain spatial relation that can be learned. By making use of these two assumptions, the explosion of the size of the weight matrices can be avoided by making use of a CNN.\\
 
-Reading Matlab files:
-- CNNs can learn rich feature representations for a wide range of images --> used as preprocessing tool to extract the important features. 
+A CNN can learn rich feature representations for 2D images and can therefore be applied as preprocessing tool to extract important features. The building blocks of a CNN network is the altering use of convolutional layers, Relu layers and pooling layers in this specific order. 
 
-- The layers at the beginning of the network capture basic image features, such as edges and blobs.
+\subsection{Convolutional layers}
+In this layer a by the developer specified amount of feature detectors with a certain size are specified. A feature detector is in literature also called a filter or convolutional kernel. Every kernel conducts a convolutional operation with the original image and outputs a feature map. A feature map shows were in the original image the kernel has found a good match with the feature that it is focussing on. When going deeper in the CNN, the features that will be detected will become more advanced for example in the first layer features will be edges and later on become parts of real objects. For every correspond kernel, a feature map is calculated which shows were in the picture a good match with the kernel function is found. After the convolution layers, Relu layers are applied that set all the negative values in the feature map equal to zero. 
 
-- convolution layers --> finding locally, patterns using a kernel function
-- pooling layer --> reducing dimensionality. 
-- alterning layers --> start from detecting lines --> higher level features --> finally the features are used for classifiction using a softmax layer. CNN --> extracts important features. 
+\subsection{Pooling layers}
+In the pooling layer, dimensionality of the feature map is reduced by making use of a max value or average value operation. The advantage of using max value is that it add additional non-linearity with respect to taking the average value. A pooling windows traverses the feature map with a certain stride (step in number of pixels taken by the window) and calculates the e.g. the max value for each window. Afterwards, an in dimensionality reduced version of the feature map will be left, which will be used again as input for a convolutional fully connected layers.\\
 
-- convolution uses a kernel that goes over the figure --> only local connectivity in order to seek for local effects. 
+After the altering convolutional, Relu and pooling layers a fully connected network is added to use the extracted features as inputs for classification. The total network is trained in a supervised manner and therefore the error with the observations can be back propagated through the whole network to tune the weights in the fully connected layers and to define the features that will be looked for in the kernels in the convolutional layers. The weights that are learned in the kernel function are shared during their application in the conventional layer. What makes CNN in practise so successfully, is their ability to avoid the learning directly with very high dimensional inputs making use of the stationarity and locality assumptions. Also, convolutions performed are easy to parallelize across GPU cores, which speeds up calculations. Finally, it is noted that striding can also be used for the window of the kernel function and padding can be applied to avoid the loss of inputs close to the perimeter by adding additional zeros in the convolution layer. Channel normalization layers are used to counteract vanishing gradients.\\
+
+
+When inspecting layer 2, which corresponds to the first convolution layer it is seen that there are 96 separate kernel function specified, each with dimensions of $ 11 \times 11 \times 3 $. All these filters are separately applied on the image with dimensions $ 227 \times 227 \times 3 $ to form feature maps. The third dimension corresponds to the colour specification according to the RGB values. A stride of 4 in the horizontal and vertical direction is used when the kernel function traverses the image. Because the CNN is already trained, the weights in the kernel functions correspond to the learned features where will be sought for in the image. The weights of the kernel functions are obtained by making use of back propagation.\\
+
+The dimensions of the inputs only change after a convolution layer or pooling layer and from every window of values only one remains. Following formulas can be applied when identical horizontal and vertical dimensions for the kernel size and inputs is used and no padding is applied with $ X $ the new dimension, I the original dimension, K the kernel window dimension and P the pooling window dimension and S the stride 
+
+\begin{subequations}
+	\begin{equation}
+		X = \frac{(I-K)}{S} + 1,
+	\end{equation} 
+	\begin{equation}
+			X = \frac{(I-P)}{S} + 1.
+	\end{equation}   
+\end{subequations}
+
+The inputs for the second convolution layer are therefore 96 feature maps with dimensions $ 27 \times 27 \times 3 $.
+
+
+
 
 
 
