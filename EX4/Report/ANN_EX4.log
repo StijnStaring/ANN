@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  22 MAY 2021 23:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  23 MAY 2021 14:05
 entering extended mode
 **./ANN_EX4.tex
 (ANN_EX4.tex
@@ -597,14 +597,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Reference `' on page 1 undefined on input line 51.
-
-
-LaTeX Warning: Reference `eq:1b' on page 1 undefined on input line 51.
+Overfull \hbox (19.38976pt too wide) in paragraph at lines 80--86
+ [][] 
+ []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 72--92
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 67--87
 [][] [] 
  []
 
@@ -615,23 +613,53 @@ xt4): destination with the same identifier (name{equation.1.1}) has been alread
 y used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.156 \end{document}
-                    ] (ANN_EX4.aux)
-Package rerunfilecheck Info: File `ANN_EX4.out' has not changed.
-(rerunfilecheck)             Checksum: 6248E994282DF66FA2D3EFA97B100283;64.
+l.93 
+     ]
+<Pictures//0iter_gibbs.png, id=44, 209.28188pt x 229.60782pt>
+File: Pictures//0iter_gibbs.png Graphic file (type png)
+<use Pictures//0iter_gibbs.png>
+Package pdftex.def Info: Pictures//0iter_gibbs.png  used on input line 97.
+(pdftex.def)             Requested size: 79.21425pt x 86.90501pt.
+<Pictures//1iter_gibbs.png, id=46, 209.28188pt x 229.60782pt>
+File: Pictures//1iter_gibbs.png Graphic file (type png)
+<use Pictures//1iter_gibbs.png>
+Package pdftex.def Info: Pictures//1iter_gibbs.png  used on input line 103.
+(pdftex.def)             Requested size: 79.21425pt x 86.90501pt.
+<Pictures//100iter_gibbs.png, id=47, 209.28188pt x 228.855pt>
+File: Pictures//100iter_gibbs.png Graphic file (type png)
+<use Pictures//100iter_gibbs.png>
+Package pdftex.def Info: Pictures//100iter_gibbs.png  used on input line 109.
+(pdftex.def)             Requested size: 79.21425pt x 86.62009pt.
+<Pictures//default.png, id=49, 252.4632pt x 249.3315pt>
+File: Pictures//default.png Graphic file (type png)
+<use Pictures//default.png>
+Package pdftex.def Info: Pictures//default.png  used on input line 124.
+(pdftex.def)             Requested size: 97.03485pt x 95.83122pt.
+<Pictures//tuned.png, id=50, 252.4632pt x 249.3315pt>
+File: Pictures//tuned.png Graphic file (type png)
+<use Pictures//tuned.png>
+Package pdftex.def Info: Pictures//tuned.png  used on input line 130.
+(pdftex.def)             Requested size: 97.03485pt x 95.83122pt.
+ [2 <./Pictures//0iter_gibbs.png> <./Pictures//1iter_gibbs.png> <./Pictures//10
+0iter_gibbs.png> <./Pictures//default.png> <./Pictures//tuned.png>]
+(ANN_EX4.aux)
 
+Package rerunfilecheck Warning: File `ANN_EX4.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-LaTeX Warning: There were undefined references.
-
+Package rerunfilecheck Info: Checksums for `ANN_EX4.out':
+(rerunfilecheck)             Before: 60E1FF67C3EAF4C96A8464DF7496B5A2;267
+(rerunfilecheck)             After:  A38FF865018CFE3E61E4ABEA44C60F82;325.
  ) 
 Here is how much of TeX's memory you used:
- 13295 strings out of 479799
- 211484 string characters out of 2879599
- 550959 words of memory out of 3000000
- 30054 multiletter control sequences out of 15000+200000
- 551633 words of font info for 82 fonts, out of 3000000 for 9000
+ 13378 strings out of 479799
+ 213073 string characters out of 2879599
+ 555105 words of memory out of 3000000
+ 30121 multiletter control sequences out of 15000+200000
+ 552541 words of font info for 84 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,74p,808b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,11n,74p,1742b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
@@ -639,12 +667,13 @@ onts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib
 10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb>
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/up
-lb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on ANN_EX4.pdf (1 page, 124779 bytes).
+nts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on ANN_EX4.pdf (2 pages, 196894 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
