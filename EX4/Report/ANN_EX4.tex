@@ -182,8 +182,73 @@ That the DBM can better capture the important features of the digit is shown in 
 
 
 \section{Generative Adversarial Networks}
+A Generative adversarial network is an unsupervised learning task where regularities and patterns are learned in the input data. Afterwards the model can be used to generate examples that could have been part of the original training set. It is important that the generated examples are not exactly the same as the training examples because these are already available. A GAN should learn the underlying probability distribution of the training examples and sample from it to generate new examples. A GAN is trained making use of two adversarial neural networks that play a zero sum game against each other. Player one is the generative model that generates fake training examples from noise and player two is a discriminator that assesses if the presented example is a fake or real training example by assigning probabilities. When the discriminator is fooled around half of the times, training is stopped because this means that the generator generates plausible examples. By making use of the interplay between the two players, the learning problem is framed in a supervised learning problem. Neural networks used inside a GAN as generator is for example a CNN. Here no pooling is used because dimensionality reduction is not desired. Also no fully connected layers are used. The disadvantage of using GAN is that it can become unstable when learning in practise. Applications of GAN are:
+\begin{itemize}
+	\item Explainable AI
+	\item Augementation of a dataset
+\end{itemize}
+
+When a model can generates logical data, the user puts more trust in it and it contributes to the explainability of the model. Also, GANs can be used in a context where there is only a small amount of data available and where it can be augmented with generated examples. A very famous example is the use of GAN in deepfakes where it is possible to generate a face on the movements of a person so that it looks like somebody else is doing or saying something in a video. \\
+
+\begin{figure}[h]
+	\begin{subfigure}[b]{0.49\textwidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{birds.png}
+		\caption{Generated bird images}
+		\label{fig:birds}
+	\end{subfigure}	 	
+	\begin{subfigure}[b]{0.49\textwidth}
+		\centering
+		\includegraphics[width=1.0\linewidth]{GAN_acc.png}
+		\caption{Loss and accuracy of the generator vs discriminator}
+		\label{fig:GAN_accuracy}
+	\end{subfigure}	
+	\caption{Generating digits with a RBM and DBM.}
+	\label{fig:compareDBM2}
+\end{figure}
+
+Figure \ref{fig:birds} shows the generated examples of images of birds wherefore a GAN was trained on the CIFAR dataset. Figure \ref{fig:GAN_accuracy} shows the accuracy and loss of the generator in respectively yellow and red. The accuracy and loss of the discriminator are shown in respectively green and blue. It is observed that the four curves are correlated. This is logically because the Generator and Discriminator play a game against each other. When the Generator loss becomes higher, the Discriminator loss becomes lower. This can be clearly seen in the opposite direction of the red and bleu curves. The loss functions behave opposite to the accuracy and therefore yellow and red, and green and bleu also show opposite peaks. It can be seen that the accuracy and loss functions all converge which means that the model didn't become unstable. During training the effect of ``mode collapse'' could occur which means that the generator has found one image to always successfully mislead the discriminator with. Therefore, the generator starts converging to a situation where it always uses this particular image. The accuracy of the generator will become zero. 
 
 
+\section{Optimal transport}
+Optimal transport wants to change one probability distribution into another, while making minimal changes to the original one. To calculate distance between the two distributions, the Wasserstein distance is used. The Wasserstein distance measures the distance between two probability distributions by calculating the minimum of changes that have to be made to turn the first one into the second. 
+During training of the optimal transport problem, this distance is tried to be minimized. If discrete distributions are considered, the Wasserstein  distance corresponds to the minimum of a linear program. A variant on the Wasserstein distance is the Sinkhorn distance where the amount of information entropy is added as a negative cost in the objective function of the distance metric and which serves as regulation term.
+
+\subsection{Colour swapping}
+Colour swapping of images is performed by creating a start set and a target set by randomly sampling respectively both the original pictures. Each sample corresponds to a random pixel and is characterized by three float numbers that correspond to a colour according to the RGB colour code. Because random sampling is performed all the samples in the start set and target set belong to a different probability distribution. The task during optimal transport is to learn the relation how to transform the start distribution to the target distribution. The function used to evaluate the learned relation between the two probability distributions are the Wasserstein and Sinkhorn distance. Results of the colour swapping are displayed in Figure \ref{fig:switch colour}. It can be seen that that the lightness of the colours are preserved causing the contours to be very visible. Using the Sinkhorn distance leads to a more homogenous colour distribution, which is in accordance to the highest amount of information entropy. When a non-optimal method is used, the contours of the original picture won't be preserved. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{OT_pictures.png}
+	\caption{Swapping colour using OT. Pictures in order are: original, OT Wasserstein, OT Sinkhorn}
+	\label{fig:switch colour}
+\end{figure}
+
+\subsection{WGAN}
+
+
+\begin{figure}[ht]
+	\begin{subfigure}{0.32\textwidth}
+		\centering
+		\includegraphics[width=0.5\linewidth]{WGAN2.png}
+		\caption{WGAN: weight clipping}
+		\label{fig:WGAN2}
+	\end{subfigure}	 	
+	\begin{subfigure}{0.32\textwidth}
+		\centering
+		\includegraphics[width=0.5\linewidth]{WGAN1.png}
+		\caption{WGAN: Gradient penalization}
+		\label{fig:WGAN1}
+	\end{subfigure}	
+	\begin{subfigure}{0.32\textwidth}
+		\centering
+		\includegraphics[width=0.5\linewidth]{GAN.png}
+		\caption{GAN}
+		\label{fig:GAN}
+	\end{subfigure}
+	\caption{Generated images from WGAN and GAN.}
+	\label{fig:compareDBM}
+\end{figure}
 
 
 

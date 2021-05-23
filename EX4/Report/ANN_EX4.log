@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  23 MAY 2021 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  23 MAY 2021 22:31
 entering extended mode
 **./ANN_EX4.tex
 (ANN_EX4.tex
@@ -485,7 +485,20 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count301
 \l__pdf_internal_box=\box55
 )
-(ANN_EX4.aux)
+(ANN_EX4.aux
+
+LaTeX Warning: Label `fig:compareDBM2' multiply defined.
+
+
+LaTeX Warning: Label `fig:compareDBM2@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:compareDBM' multiply defined.
+
+
+LaTeX Warning: Label `fig:compareDBM@cref' multiply defined.
+
+)
 \openout1 = `ANN_EX4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -615,52 +628,52 @@ y used, duplicate ignored
                                                   
 l.93 
      ]
-<Pictures//0iter_gibbs.png, id=52, 209.28188pt x 229.60782pt>
+<Pictures//0iter_gibbs.png, id=60, 209.28188pt x 229.60782pt>
 File: Pictures//0iter_gibbs.png Graphic file (type png)
 <use Pictures//0iter_gibbs.png>
 Package pdftex.def Info: Pictures//0iter_gibbs.png  used on input line 97.
 (pdftex.def)             Requested size: 79.21425pt x 86.90501pt.
-<Pictures//1iter_gibbs.png, id=54, 209.28188pt x 229.60782pt>
+<Pictures//1iter_gibbs.png, id=62, 209.28188pt x 229.60782pt>
 File: Pictures//1iter_gibbs.png Graphic file (type png)
 <use Pictures//1iter_gibbs.png>
 Package pdftex.def Info: Pictures//1iter_gibbs.png  used on input line 103.
 (pdftex.def)             Requested size: 79.21425pt x 86.90501pt.
-<Pictures//100iter_gibbs.png, id=55, 209.28188pt x 228.855pt>
+<Pictures//100iter_gibbs.png, id=63, 209.28188pt x 228.855pt>
 File: Pictures//100iter_gibbs.png Graphic file (type png)
 <use Pictures//100iter_gibbs.png>
 Package pdftex.def Info: Pictures//100iter_gibbs.png  used on input line 109.
 (pdftex.def)             Requested size: 79.21425pt x 86.62009pt.
-<Pictures//default.png, id=57, 252.4632pt x 249.3315pt>
+<Pictures//default.png, id=65, 252.4632pt x 249.3315pt>
 File: Pictures//default.png Graphic file (type png)
 <use Pictures//default.png>
 Package pdftex.def Info: Pictures//default.png  used on input line 124.
 (pdftex.def)             Requested size: 97.03485pt x 95.83122pt.
-<Pictures//tuned.png, id=58, 252.4632pt x 249.3315pt>
+<Pictures//tuned.png, id=66, 252.4632pt x 249.3315pt>
 File: Pictures//tuned.png Graphic file (type png)
 <use Pictures//tuned.png>
 Package pdftex.def Info: Pictures//tuned.png  used on input line 130.
 (pdftex.def)             Requested size: 97.03485pt x 95.83122pt.
-<Pictures//DBM_RBM.png, id=60, 108.405pt x 103.88812pt>
+<Pictures//DBM_RBM.png, id=68, 108.405pt x 103.88812pt>
 File: Pictures//DBM_RBM.png Graphic file (type png)
 <use Pictures//DBM_RBM.png>
 Package pdftex.def Info: Pictures//DBM_RBM.png  used on input line 144.
 (pdftex.def)             Requested size: 79.21425pt x 75.91695pt.
-<Pictures//DBM_L1.png, id=61, 109.91063pt x 106.14656pt>
+<Pictures//DBM_L1.png, id=69, 109.91063pt x 106.14656pt>
 File: Pictures//DBM_L1.png Graphic file (type png)
 <use Pictures//DBM_L1.png>
 Package pdftex.def Info: Pictures//DBM_L1.png  used on input line 150.
 (pdftex.def)             Requested size: 79.21425pt x 76.5032pt.
-<Pictures//DBM_L2.png, id=62, 112.16907pt x 106.14656pt>
+<Pictures//DBM_L2.png, id=70, 112.16907pt x 106.14656pt>
 File: Pictures//DBM_L2.png Graphic file (type png)
 <use Pictures//DBM_L2.png>
 Package pdftex.def Info: Pictures//DBM_L2.png  used on input line 156.
 (pdftex.def)             Requested size: 79.21425pt x 74.9629pt.
-<Pictures//DBM_RBM_gen.png, id=64, 104.64093pt x 97.86563pt>
+<Pictures//DBM_RBM_gen.png, id=72, 104.64093pt x 97.86563pt>
 File: Pictures//DBM_RBM_gen.png Graphic file (type png)
 <use Pictures//DBM_RBM_gen.png>
 Package pdftex.def Info: Pictures//DBM_RBM_gen.png  used on input line 169.
 (pdftex.def)             Requested size: 97.03485pt x 90.75125pt.
-<Pictures//DBM_gen.png, id=65, 108.405pt x 97.11281pt>
+<Pictures//DBM_gen.png, id=73, 108.405pt x 97.11281pt>
 File: Pictures//DBM_gen.png Graphic file (type png)
 <use Pictures//DBM_gen.png>
 Package pdftex.def Info: Pictures//DBM_gen.png  used on input line 175.
@@ -671,39 +684,80 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <./Pictures//0iter_gibbs.png> <./Pictures//1iter_gibbs.png> <./Pictures//100
 iter_gibbs.png> <./Pictures//default.png> <./Pictures//tuned.png> <./Pictures//
-DBM_RBM.png> <./Pictures//DBM_L1.png> <./Pictures//DBM_L2.png>] [3 <./Pictures/
-/DBM_RBM_gen.png> <./Pictures//DBM_gen.png>] (ANN_EX4.aux)
+DBM_RBM.png> <./Pictures//DBM_L1.png> <./Pictures//DBM_L2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+<Pictures//birds.png, id=91, 115.93312pt x 116.68594pt>
+File: Pictures//birds.png Graphic file (type png)
+<use Pictures//birds.png>
+Package pdftex.def Info: Pictures//birds.png  used on input line 196.
+(pdftex.def)             Requested size: 194.0734pt x 195.35086pt.
+<Pictures//GAN_acc.png, id=92, 147.825pt x 117.603pt>
+File: Pictures//GAN_acc.png Graphic file (type png)
+<use Pictures//GAN_acc.png>
+Package pdftex.def Info: Pictures//GAN_acc.png  used on input line 202.
+(pdftex.def)             Requested size: 242.59084pt x 193.01012pt.
+[3 <./Pictures//DBM_RBM_gen.png> <./Pictures//DBM_gen.png> <./Pictures//birds.p
+ng> <./Pictures//GAN_acc.png>]
+<Pictures//OT_pictures.png, id=106, 368.87813pt x 179.16937pt>
+File: Pictures//OT_pictures.png Graphic file (type png)
+<use Pictures//OT_pictures.png>
+Package pdftex.def Info: Pictures//OT_pictures.png  used on input line 222.
+(pdftex.def)             Requested size: 346.55293pt x 168.32628pt.
+<Pictures//WGAN2.png, id=107, 121.95563pt x 115.18031pt>
+File: Pictures//WGAN2.png Graphic file (type png)
+<use Pictures//WGAN2.png>
+Package pdftex.def Info: Pictures//WGAN2.png  used on input line 233.
+(pdftex.def)             Requested size: 79.21425pt x 74.81357pt.
+<Pictures//WGAN1.png, id=108, 122.70844pt x 116.68594pt>
+File: Pictures//WGAN1.png Graphic file (type png)
+<use Pictures//WGAN1.png>
+Package pdftex.def Info: Pictures//WGAN1.png  used on input line 239.
+(pdftex.def)             Requested size: 79.21425pt x 75.3286pt.
+<Pictures//GAN.png, id=109, 120.45pt x 112.92188pt>
+File: Pictures//GAN.png Graphic file (type png)
+<use Pictures//GAN.png>
+Package pdftex.def Info: Pictures//GAN.png  used on input line 245.
+(pdftex.def)             Requested size: 79.21425pt x 74.26503pt.
+ [4 <./Pictures//OT_pictures.png> <./Pictures//WGAN2.png> <./Pictures//WGAN1.pn
+g> <./Pictures//GAN.png>] (ANN_EX4.aux)
 
 Package rerunfilecheck Warning: File `ANN_EX4.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `ANN_EX4.out':
-(rerunfilecheck)             Before: CBD561EAD1246DFE7DC3BF6F586777C1;366
-(rerunfilecheck)             After:  B3DB870D84AFA5E3CB52162AFE4DF2BD;391.
+(rerunfilecheck)             Before: 5C04E54D728A40978ABCC8212AE6C08A;507
+(rerunfilecheck)             After:  23C259DC435279D2003A78F3DEE3FFF5;560.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 13438 strings out of 479799
- 214247 string characters out of 2879599
- 556001 words of memory out of 3000000
- 30172 multiletter control sequences out of 15000+200000
- 552541 words of font info for 84 fonts, out of 3000000 for 9000
+ 13509 strings out of 479799
+ 215571 string characters out of 2879599
+ 557087 words of memory out of 3000000
+ 30229 multiletter control sequences out of 15000+200000
+ 552876 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,74p,1742b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib
-10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb>
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on ANN_EX4.pdf (3 pages, 311947 bytes).
+ <C:\Users\Stijn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib
+7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb
+><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on ANN_EX4.pdf (4 pages, 676197 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
