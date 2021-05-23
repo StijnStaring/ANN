@@ -116,7 +116,7 @@ In Gibbs sampling it is started from an initial known observation $ \bm{v}^{(1)}
 
 
 \subsection{Reconstructing images}
-The general rule in reconstructing images is that when more information is missing from the original image, it is harder to reconstruct. Deleting more information can be done by deleting more rows or deleting crucial places that play a key role in distinguishing the number. Figure \ref{fig:hyperpara} shows the reconstruction of the number 4 using the default RBM and tuned RBM when rows 10 till 15 are removed. The tuned model shows better results. In order to reconstruct the image, the image with deleted rows is feeded as observed example to the trained RBM and Gibbs sampling is applied. An observation is retrieved from the model probability distribution and the corresponding rows are used to fill the gap of the original image. For both images 10 Gibbs sampling steps are used.
+The general rule in reconstructing images is that when more information is missing from the original image, it is harder to reconstruct. Deleting more information can be done by deleting more rows or deleting crucial places that play a key role in distinguishing the number. Figure \ref{fig:hyperpara} shows the reconstruction of the number 4 using the default RBM and tuned RBM when rows 10 till 15 are removed. The tuned model shows better results. In order to reconstruct the image, the image with deleted rows is feeded as observation to the trained RBM and Gibbs sampling is applied. An observation is retrieved from the model probability distribution and the corresponding rows are used to fill the gap of the original image. For both images 10 Gibbs sampling steps are used.
 
 \begin{figure}[h]
 	\begin{subfigure}{0.49\textwidth}
@@ -136,6 +136,53 @@ The general rule in reconstructing images is that when more information is missi
 \end{figure}
 
 \section{Deep Boltzmann Machines}
+A Deep Boltzmann Machines is still restricted, which means that the nodes of the network of one layer are not connected. However, the difference with a shallow RBM is that it has multiple layers of hidden units stacked on top of each other. Due to this, a DBM can learn features that are non-linear combinations of features extracted in the lower layers. In comparison, the RBM can only extract features directly from the pixels. Therefore, more advanced features can be learned by a DBM. Figure \ref{fig:compareDBM} shows the weights of the hidden units of the RBM and two layers of the DBM. It is clear that both RBM and DBM show similar extracted features in layer 1. In the second layer more complex features are found that the RBM hasn't captured.
+
+\begin{figure}[ht]
+	\begin{subfigure}{0.32\textwidth}
+		\centering
+		\includegraphics[width=0.5\linewidth]{DBM_RBM.png}
+		\caption{RBM}
+		\label{fig:DBM_RBM}
+	\end{subfigure}	 	
+	\begin{subfigure}{0.32\textwidth}
+		\centering
+		\includegraphics[width=0.5\linewidth]{DBM_L1.png}
+		\caption{DBM: L1}
+		\label{fig:DBM_L1}
+	\end{subfigure}	
+	\begin{subfigure}{0.32\textwidth}
+		\centering
+		\includegraphics[width=0.5\linewidth]{DBM_L2.png}
+		\caption{DBM: L2}
+		\label{fig:DBM_L2}
+	\end{subfigure}
+	\caption{Weights of the units of a RBM and DBM.}
+	\label{fig:compareDBM}
+\end{figure}
+
+That the DBM can better capture the important features of the digit is shown in Figure \ref{fig:compareDBM2} where it seen that the images originating from a DBM are much more clear. For the generation of the images 1 Gibbs sampling iteration is used. 
+
+\begin{figure}[h]
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\includegraphics[width=0.4\linewidth]{DBM_RBM_gen.png}
+		\caption{RBM}
+		\label{fig:RBM_gen}
+	\end{subfigure}	 	
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\includegraphics[width=0.4\linewidth]{DBM_gen.png}
+		\caption{DBM}
+		\label{fig:DBM_gen}
+	\end{subfigure}	
+	\caption{Generating digits with a RBM and DBM.}
+	\label{fig:compareDBM2}
+\end{figure}
+
+
+\section{Generative Adversarial Networks}
+
 
 
 

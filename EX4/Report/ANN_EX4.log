@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  23 MAY 2021 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.2)  23 MAY 2021 15:10
 entering extended mode
 **./ANN_EX4.tex
 (ANN_EX4.tex
@@ -615,48 +615,78 @@ y used, duplicate ignored
                                                   
 l.93 
      ]
-<Pictures//0iter_gibbs.png, id=44, 209.28188pt x 229.60782pt>
+<Pictures//0iter_gibbs.png, id=52, 209.28188pt x 229.60782pt>
 File: Pictures//0iter_gibbs.png Graphic file (type png)
 <use Pictures//0iter_gibbs.png>
 Package pdftex.def Info: Pictures//0iter_gibbs.png  used on input line 97.
 (pdftex.def)             Requested size: 79.21425pt x 86.90501pt.
-<Pictures//1iter_gibbs.png, id=46, 209.28188pt x 229.60782pt>
+<Pictures//1iter_gibbs.png, id=54, 209.28188pt x 229.60782pt>
 File: Pictures//1iter_gibbs.png Graphic file (type png)
 <use Pictures//1iter_gibbs.png>
 Package pdftex.def Info: Pictures//1iter_gibbs.png  used on input line 103.
 (pdftex.def)             Requested size: 79.21425pt x 86.90501pt.
-<Pictures//100iter_gibbs.png, id=47, 209.28188pt x 228.855pt>
+<Pictures//100iter_gibbs.png, id=55, 209.28188pt x 228.855pt>
 File: Pictures//100iter_gibbs.png Graphic file (type png)
 <use Pictures//100iter_gibbs.png>
 Package pdftex.def Info: Pictures//100iter_gibbs.png  used on input line 109.
 (pdftex.def)             Requested size: 79.21425pt x 86.62009pt.
-<Pictures//default.png, id=49, 252.4632pt x 249.3315pt>
+<Pictures//default.png, id=57, 252.4632pt x 249.3315pt>
 File: Pictures//default.png Graphic file (type png)
 <use Pictures//default.png>
 Package pdftex.def Info: Pictures//default.png  used on input line 124.
 (pdftex.def)             Requested size: 97.03485pt x 95.83122pt.
-<Pictures//tuned.png, id=50, 252.4632pt x 249.3315pt>
+<Pictures//tuned.png, id=58, 252.4632pt x 249.3315pt>
 File: Pictures//tuned.png Graphic file (type png)
 <use Pictures//tuned.png>
 Package pdftex.def Info: Pictures//tuned.png  used on input line 130.
 (pdftex.def)             Requested size: 97.03485pt x 95.83122pt.
- [2 <./Pictures//0iter_gibbs.png> <./Pictures//1iter_gibbs.png> <./Pictures//10
-0iter_gibbs.png> <./Pictures//default.png> <./Pictures//tuned.png>]
-(ANN_EX4.aux)
+<Pictures//DBM_RBM.png, id=60, 108.405pt x 103.88812pt>
+File: Pictures//DBM_RBM.png Graphic file (type png)
+<use Pictures//DBM_RBM.png>
+Package pdftex.def Info: Pictures//DBM_RBM.png  used on input line 144.
+(pdftex.def)             Requested size: 79.21425pt x 75.91695pt.
+<Pictures//DBM_L1.png, id=61, 109.91063pt x 106.14656pt>
+File: Pictures//DBM_L1.png Graphic file (type png)
+<use Pictures//DBM_L1.png>
+Package pdftex.def Info: Pictures//DBM_L1.png  used on input line 150.
+(pdftex.def)             Requested size: 79.21425pt x 76.5032pt.
+<Pictures//DBM_L2.png, id=62, 112.16907pt x 106.14656pt>
+File: Pictures//DBM_L2.png Graphic file (type png)
+<use Pictures//DBM_L2.png>
+Package pdftex.def Info: Pictures//DBM_L2.png  used on input line 156.
+(pdftex.def)             Requested size: 79.21425pt x 74.9629pt.
+<Pictures//DBM_RBM_gen.png, id=64, 104.64093pt x 97.86563pt>
+File: Pictures//DBM_RBM_gen.png Graphic file (type png)
+<use Pictures//DBM_RBM_gen.png>
+Package pdftex.def Info: Pictures//DBM_RBM_gen.png  used on input line 169.
+(pdftex.def)             Requested size: 97.03485pt x 90.75125pt.
+<Pictures//DBM_gen.png, id=65, 108.405pt x 97.11281pt>
+File: Pictures//DBM_gen.png Graphic file (type png)
+<use Pictures//DBM_gen.png>
+Package pdftex.def Info: Pictures//DBM_gen.png  used on input line 175.
+(pdftex.def)             Requested size: 97.03485pt x 86.93097pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./Pictures//0iter_gibbs.png> <./Pictures//1iter_gibbs.png> <./Pictures//100
+iter_gibbs.png> <./Pictures//default.png> <./Pictures//tuned.png> <./Pictures//
+DBM_RBM.png> <./Pictures//DBM_L1.png> <./Pictures//DBM_L2.png>] [3 <./Pictures/
+/DBM_RBM_gen.png> <./Pictures//DBM_gen.png>] (ANN_EX4.aux)
 
 Package rerunfilecheck Warning: File `ANN_EX4.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `ANN_EX4.out':
-(rerunfilecheck)             Before: 60E1FF67C3EAF4C96A8464DF7496B5A2;267
-(rerunfilecheck)             After:  A38FF865018CFE3E61E4ABEA44C60F82;325.
+(rerunfilecheck)             Before: CBD561EAD1246DFE7DC3BF6F586777C1;366
+(rerunfilecheck)             After:  B3DB870D84AFA5E3CB52162AFE4DF2BD;391.
  ) 
 Here is how much of TeX's memory you used:
- 13378 strings out of 479799
- 213073 string characters out of 2879599
- 555105 words of memory out of 3000000
- 30121 multiletter control sequences out of 15000+200000
+ 13438 strings out of 479799
+ 214247 string characters out of 2879599
+ 556001 words of memory out of 3000000
+ 30172 multiletter control sequences out of 15000+200000
  552541 words of font info for 84 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,74p,1742b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -671,9 +701,9 @@ nts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on ANN_EX4.pdf (2 pages, 196894 bytes).
+Output written on ANN_EX4.pdf (3 pages, 311947 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
