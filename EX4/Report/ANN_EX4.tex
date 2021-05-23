@@ -166,13 +166,13 @@ That the DBM can better capture the important features of the digit is shown in 
 \begin{figure}[h]
 	\begin{subfigure}{0.49\textwidth}
 		\centering
-		\includegraphics[width=0.4\linewidth]{DBM_RBM_gen.png}
+		\includegraphics[width=0.3\linewidth]{DBM_RBM_gen.png}
 		\caption{RBM}
 		\label{fig:RBM_gen}
 	\end{subfigure}	 	
 	\begin{subfigure}{0.49\textwidth}
 		\centering
-		\includegraphics[width=0.4\linewidth]{DBM_gen.png}
+		\includegraphics[width=0.3\linewidth]{DBM_gen.png}
 		\caption{DBM}
 		\label{fig:DBM_gen}
 	\end{subfigure}	
@@ -193,13 +193,13 @@ When a model can generates logical data, the user puts more trust in it and it c
 \begin{figure}[h]
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
-		\includegraphics[width=0.8\linewidth]{birds.png}
+		\includegraphics[width=0.6\linewidth]{birds.png}
 		\caption{Generated bird images}
 		\label{fig:birds}
 	\end{subfigure}	 	
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
-		\includegraphics[width=1.0\linewidth]{GAN_acc.png}
+		\includegraphics[width=0.8\linewidth]{GAN_acc.png}
 		\caption{Loss and accuracy of the generator vs discriminator}
 		\label{fig:GAN_accuracy}
 	\end{subfigure}	
@@ -215,17 +215,18 @@ Optimal transport wants to change one probability distribution into another, whi
 During training of the optimal transport problem, this distance is tried to be minimized. If discrete distributions are considered, the Wasserstein  distance corresponds to the minimum of a linear program. A variant on the Wasserstein distance is the Sinkhorn distance where the amount of information entropy is added as a negative cost in the objective function of the distance metric and which serves as regulation term.
 
 \subsection{Colour swapping}
-Colour swapping of images is performed by creating a start set and a target set by randomly sampling respectively both the original pictures. Each sample corresponds to a random pixel and is characterized by three float numbers that correspond to a colour according to the RGB colour code. Because random sampling is performed all the samples in the start set and target set belong to a different probability distribution. The task during optimal transport is to learn the relation how to transform the start distribution to the target distribution. The function used to evaluate the learned relation between the two probability distributions are the Wasserstein and Sinkhorn distance. Results of the colour swapping are displayed in Figure \ref{fig:switch colour}. It can be seen that that the lightness of the colours are preserved causing the contours to be very visible. Using the Sinkhorn distance leads to a more homogenous colour distribution, which is in accordance to the highest amount of information entropy. When a non-optimal method is used, the contours of the original picture won't be preserved. 
+Colour swapping of images is performed by creating a start set and a target set by randomly sampling respectively both the original pictures. Each sample corresponds to a random pixel consisting out of three float numbers that correspond to a colour according to the RGB colour code. Because random sampling is performed all the samples in the start set and target set belong to a different probability distribution. The task during optimal transport is to learn how to transform the start distribution to the target distribution. The function used to evaluate the learned relation between the two probability distributions is the Wasserstein and Sinkhorn distance. Results of the colour swapping are displayed in Figure \ref{fig:switch colour}. It can be seen that the darkness of the colours are preserved causing the contours to be very visible. Using the Sinkhorn distance leads to a more homogenous colour distribution, which is in accordance to the highest amount of information entropy. When a non-optimal method is used, original image won't be recognizable. 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{OT_pictures.png}
+	\includegraphics[width=0.5\linewidth]{OT_pictures.png}
 	\caption{Swapping colour using OT. Pictures in order are: original, OT Wasserstein, OT Sinkhorn}
 	\label{fig:switch colour}
 \end{figure}
 
 \subsection{WGAN}
-
+This section shows the different generated digits making use of a GAN with a generator and discriminator with fully connected layers. 
+A standard GAN making use of log-sigmoid functions as cost functions for the distance between the probability distribution of the data and the model. The WGAN omits this and uses the Wasserstein distance metric instead. In a Wasserstein GAN, the discriminator emits an unconstrained real number instead of a probability and performs the role of a critic. Two variants of WGAN are tried. WGAN with weight clipping and gradient penalization. From Figure \ref{fig:WGAN_compare} it is clear that using WGAN gives smoother and less noisy generated digits. No mode collapse occurs.
 
 \begin{figure}[ht]
 	\begin{subfigure}{0.32\textwidth}
@@ -246,8 +247,8 @@ Colour swapping of images is performed by creating a start set and a target set 
 		\caption{GAN}
 		\label{fig:GAN}
 	\end{subfigure}
-	\caption{Generated images from WGAN and GAN.}
-	\label{fig:compareDBM}
+	\caption{Generated images from WGAN and GAN using 20000 batches.}
+	\label{fig:WGAN_compare}
 \end{figure}
 
 
